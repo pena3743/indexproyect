@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Prompt:wght@200&family=Quicksand:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Nanum+Gothic:wght@400;700;800 & family= Prompt:wght@200 & family= Raleway & display=swap' );
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Prompt:wght@200&family=Quicksand:wght@300&family=Raleway&display=swap');
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.iconn{
+
+background-color: black;
+border-radius: 500px;
+
+
+}
+
+
+body {
+
+background-image: url(../img/wallpaperbetter.com_1920x1080.jpg);
+background-attachment: fixed;
+
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+
+
+
+
+margin: 40px;
+
+
+
+
+
+
+}
+
+
+
+.cabeza{
+display: flex;
+max-width: 0 80%;
+
+background-color: black;
+color: white;
+opacity: 60%;
+border-radius: 40px;
+position: sticky;
+top: 1%;
+
+
+ }
+
+ .parrafo1{
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  margin-top: 10px;
+  width: 100%;
+  
+
+
+
+ }
+
+
+
+.box__header{
+display: flex;
+overflow: hidden;
+align-items: center ;
+
+justify-content: space-around;
+
+
+
+}
+
+
+.box__logo{
+ 
+width: 200;
+height: 400px;
+
+
+}
+
+.box__lista{
+display: flex;
+margin-top: 15px;
+gap: 100px;
+color: white;
+list-style-type: lower-alpha;
+
+
+}
+a {
+
+text-decoration: none;
+color: white;
+
+
+}
+
+
+
+
+
+.box__section{
+  
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  margin-left: 60px;
+  margin-right: 60px;
+  border-radius: 10px;
+  gap: 250px;
+ 
+}  
+
+ 
+
+
+.titulo{
+
+letter-spacing: 15px;
+font-size: 15px;
+}
+
+.img{
+
+width: 300px;
+box-shadow: 0 0 1px white;
+border-radius: 60%;
+margin-top: 40px;
+
+
+}
+
+
+
+
+.box__bloque{
+
+display: flex;
+width: 90%;
+justify-content: space-between;
+
+
+
+
+
+
+}
+
+
+
+
+.box__section2{
+
+display: grid;
+max-width: 95%;
+padding: 50px;
+margin: 0 auto;
+margin-top: 200px;
+box-shadow: 0 0 10px black;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 500px 500px;
+gap: 30px;
+background-color: white;
+
+
+
+}
+
+.colum{
+display: flex;
+justify-content: center;
+
+
+
+
+
+}
+
+
+.foto1, .foto2, .foto3{
+  width: calc(100% - 1rem * 2)
+
+}
+
+
+
+
+@media  ( max-width: 700px) {
+
+
+
+body{
+background-size: 1000px 1000px;
+background-repeat: no-repeat;
+
+
+}
+
+
+.box__header{
+
+flex-direction: column;
+
+}
+
+
+
+  
+.box__section {
+ 
+display: flex;
+max-width: 5%;
+
+justify-content: center;
+
+}
+.img{
+display: flex;
+width: 100px;
+align-content: center;
+
+}
+
+.box__section2{
+display: flex;
+flex-direction: column;
+
+
+}
+
+.img-grid{
+
+width: 400px;
+
+}
+
+
+}
