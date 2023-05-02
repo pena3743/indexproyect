@@ -38,11 +38,15 @@ body {
   transition: 1.5s;
   color: rgb(102, 247, 73);
 }
+
 @media (max-width: 700px) {
-  .box__header .box__header {
+  .box__header {
+    display: flex;
+    max-width: 100%;
+  }
+  .box__header .box__links {
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    flex-wrap: wrap;
+    gap: 2px;
   }
 }/*# sourceMappingURL=estylo.css.map */
