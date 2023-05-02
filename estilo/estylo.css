@@ -44,9 +44,16 @@ body {
     display: flex;
     max-width: 100%;
   }
+  .box__header .box__img1 {
+    width: 150px;
+    margin: 20px;
+    margin-left: 40px;
+  }
   .box__header .box__links {
     display: flex;
-    flex-direction: column;
-    gap: 2px;
+    flex-direction: row;
+    font-size: 0.8rem;
+    gap: 1rem;
+    margin-right: 20px;
   }
 }/*# sourceMappingURL=estylo.css.map */
