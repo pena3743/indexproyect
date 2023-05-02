@@ -100,6 +100,13 @@ body {
     margin-right: 20px;
     list-style-type: decimal-leading-zero;
   }
+  .box__titulo {
+    display: flex;
+    flex-direction: column;
+  }
+  .box__titulo .aw2 {
+    font-size: 2.5rem;
+  }
 }
 @media (max-width: 480px) {
   .box__header {
@@ -108,11 +115,8 @@ body {
     margin-right: 80px;
   }
   .box__header .box__img1 {
-    width: 140px;
-    margin: 20px;
-    border-radius: 50%;
-    border: 1px solid white;
-    margin-left: 120px;
+    width: 250px;
+    margin-left: 50px;
   }
   .box__header .box__links {
     display: flex;
@@ -121,5 +125,12 @@ body {
     gap: 5px;
     margin-right: 20px;
     list-style-type: decimal-leading-zero;
+  }
+  .box__titulo {
+    display: flex;
+    flex-direction: column;
+  }
+  .box__titulo .aw2 {
+    font-size: 2.5rem;
   }
 }/*# sourceMappingURL=estylo.css.map */

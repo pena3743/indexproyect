@@ -49,6 +49,21 @@
     }
 
 
+    .box__titulo{
+
+        display: flex;
+        flex-direction: column;
+       
+
+        .aw2{
+
+           font-size: 2.5rem; 
+
+        }
+
+
+
+    }
 
 
 }
@@ -65,12 +80,10 @@
 
         .box__img1 {
 
-            width: 140px;
-            margin: 20px;
-            border-radius: 50%;
-            border: 1px solid white;
-            margin-left: 120px;
-
+            
+            width: 250px;
+            margin-left: 50px;
+            
 
 
         }
@@ -96,4 +109,25 @@
 
 
     }
+
+
+    .box__titulo{
+
+        display: flex;
+        flex-direction: column;
+       
+
+        .aw2{
+
+           font-size: 2.5rem; 
+
+        }
+
+
+
+    }
+
+
+
+
 }
