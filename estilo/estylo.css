@@ -45,15 +45,17 @@ body {
     max-width: 100%;
   }
   .box__header .box__img1 {
-    width: 150px;
+    width: 170px;
+    background-color: gray;
     margin: 20px;
-    margin-left: 40px;
+    border-radius: 50%;
+    margin-left: 120px;
   }
   .box__header .box__links {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     font-size: 0.8rem;
-    gap: 1rem;
+    gap: 5px;
     margin-right: 20px;
   }
 }/*# sourceMappingURL=estylo.css.map */
