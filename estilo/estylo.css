@@ -16,6 +16,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-right: 100px;
 }
 .box__header .box__img1 {
   width: 400px;
@@ -104,50 +105,50 @@ body {
   line-height: 50px;
 }
 
-.box__header {
-  display: flex;
-  max-width: 100%;
-}
-.box__header .box__img1 {
-  width: 350px;
-  margin-left: 70px;
-}
-.box__header .box__links {
-  display: flex;
-  flex-direction: row;
-  font-size: 1rem;
-  gap: 50px;
-  margin-right: 100px;
-  list-style-type: decimal-leading-zero;
-}
-
-.box__titulo {
-  display: flex;
-  flex-direction: column;
-  margin-left: 70px;
-}
-.box__titulo .aw2 {
-  font-size: 4rem;
-}
-
-.box__section1 {
-  display: flex;
-  max-width: 70%;
-  max-height: 2360px;
-  background-color: white;
-  margin: 0 auto;
-  margin-top: 150px;
-}
-.box__section1 .box__img2 {
-  display: flex;
-  margin-top: 200px;
-  padding: 20px;
-  margin: 0 auto;
-  flex-direction: column;
-  gap: 50px;
-}
-.box__section1 .box__img2 .img33 {
-  width: 600px;
+@media (max-width: 1000) {
+  .box__header {
+    display: flex;
+    max-width: 100%;
+  }
+  .box__header .box__img1 {
+    width: 350px;
+    margin-left: 70px;
+  }
+  .box__header .box__links {
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    gap: 50px;
+    margin-right: 100px;
+    list-style-type: decimal-leading-zero;
+  }
+  .box__titulo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+  }
+  .box__titulo .aw2 {
+    font-size: 4rem;
+  }
+  .box__section1 {
+    display: flex;
+    max-width: 70%;
+    max-height: 2360px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 150px;
+  }
+  .box__section1 .box__img2 {
+    display: flex;
+    margin-top: 200px;
+    padding: 20px;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .box__section1 .box__img2 .img33 {
+    width: 600px;
+  }
 }
 @media (max-width: 850px) {
   .box__header {
@@ -249,6 +250,7 @@ body {
     display: flex;
     max-width: 100%;
     margin-right: 80px;
+    margin-bottom: -50px;
   }
   .box__header .box__img1 {
     width: 270px;
@@ -265,12 +267,11 @@ body {
   .box__titulo {
     display: flex;
     flex-direction: column;
-    margin-left: 35px;
+    margin-left: 20px;
     bottom: 40px;
   }
   .box__titulo .aw2 {
     font-size: 2.5rem;
-    margin-left: 50px;
     margin: 0 auto;
   }
   .box__section1 {

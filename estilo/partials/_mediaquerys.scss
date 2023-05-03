@@ -1,102 +1,101 @@
-
-
-@media (max-width:1100) {
-    
-}
-
-
-.box__header {
-    display: flex;
-    max-width: 100%;
+@media (max-width:1000) { 
 
 
 
 
-    .box__img1 {
-
-
-        width: 350px;
-        margin-left: 70px;
-
-
-    }
-
-
-    .box__links {
-
+    .box__header {
         display: flex;
-        flex-direction:  row;
-        font-size: 1rem;
-        gap: 50px;
-        margin-right: 100px;
-        list-style-type: decimal-leading-zero;
-        
+        max-width: 100%;
 
 
+
+
+        .box__img1 {
+
+
+            width: 350px;
+            margin-left: 70px;
+
+
+        }
+
+
+        .box__links {
+
+            display: flex;
+            flex-direction: row;
+            font-size: 1rem;
+            gap: 50px;
+            margin-right: 100px;
+            list-style-type: decimal-leading-zero;
+
+
+
+
+        }
 
     }
 
-}
+
+
+
+        .box__titulo {
+
+            display: flex;
+            flex-direction: column;
+            margin-left: 70px;
+
+            .aw2 {
+
+                font-size: 4rem;
+
+            }
+
+
+
+        }
+
+
+        .box__section1 {
+            display: flex;
+            max-width: 70%;
+            max-height: 2360px;
+            background-color: white;
+
+            margin: 0 auto;
+            margin-top: 150px;
+
+            .box__img2 {
+
+                display: flex;
+                margin-top: 200px;
+                padding: 20px;
+                margin: 0 auto;
+                flex-direction: column;
+                gap: 50px;
 
 
 
 
-.box__titulo {
+                .img33 {
 
-    display: flex;
-    flex-direction: column;
-    margin-left: 70px;
+                    width: 600px;
 
-    .aw2 {
+                }
 
-        font-size: 4rem;
+
+            }
+
+
+
+
+
+        }
 
     }
 
 
-
-}
-
-
-.box__section1 {
-    display: flex;
-    max-width: 70%;
-    max-height: 2360px;
-    background-color: white;
-    
-    margin: 0 auto;
-    margin-top: 150px;
-
-    .box__img2 {
-
-        display: flex;
-        margin-top: 200px;
-        padding: 20px;
-         margin: 0 auto;
-       flex-direction: column;
-        gap: 50px;
-        
-
-
-
-        .img33 {
-
-            width: 600px;
-            
-        }
-
-
-        }
-
-        .box__subtitulo{
-           
-           
-
-        }
-
-    
-
-}
+ 
 
 
 
@@ -106,12 +105,7 @@
 
 
 
-
-
-
-
-
-@media (max-width:850px){
+@media (max-width:850px) {
 
 
 
@@ -136,12 +130,12 @@
         .box__links {
 
             display: flex;
-            flex-direction:  row;
+            flex-direction: row;
             font-size: 0.7rem;
             gap: 40px;
             margin-right: 100px;
             list-style-type: decimal-leading-zero;
-            
+
 
 
 
@@ -171,14 +165,14 @@
 
     .box__section1 {
         display: block;
-        max-width:  60%;
+        max-width: 60%;
         max-height: 1760px;
         margin: 0 auto;
         margin-top: 150px;
         border-radius: 10px;
         border: 1px solid greenyellow;
         background-color: white;
-        
+
 
 
 
@@ -187,7 +181,7 @@
             display: flex;
             margin-top: 200px;
             padding: 20px;
-             margin: 0 auto;
+            margin: 0 auto;
             gap: 10px;
             flex-direction: column;
             gap: 50px;
@@ -240,7 +234,7 @@
     .box__header {
         display: flex;
         max-width: 100%;
-        
+
 
 
 
@@ -257,12 +251,12 @@
         .box__links {
 
             display: flex;
-            flex-direction:  column;
+            flex-direction: column;
             font-size: 0.7rem;
             gap: 5px;
             margin-right: 100px;
             list-style-type: decimal-leading-zero;
-            
+
 
 
 
@@ -304,7 +298,7 @@
             display: flex;
             margin-top: 200px;
             padding: 20px;
-             margin: 0 auto;
+            margin: 0 auto;
             gap: 10px;
             flex-direction: column;
             gap: 50px;
@@ -338,7 +332,7 @@
         display: flex;
         max-width: 100%;
         margin-right: 80px;
-       
+        margin-bottom: -50px;
 
 
         .box__img1 {
@@ -378,15 +372,15 @@
 
         display: flex;
         flex-direction: column;
-        margin-left: 35px;
+        margin-left: 20px;
         bottom: 40px;
 
         .aw2 {
 
             font-size: 2.5rem;
-            margin-left: 50px;
-
             margin: 0 auto;
+
+            
         }
 
 
