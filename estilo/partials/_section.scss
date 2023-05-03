@@ -35,16 +35,28 @@
     .box__img2 {
         display: flex;
         justify-content: space-around;
-        
         margin-top: 300px;
         padding: 20px;
+        
+        
 
         .img33 {
             width: 500px;
+            
 
+        }
+        .mg2{
+            width: 510px;
+            bottom: 30px;
+            
 
         }
 
+        .mg3{
+            width: 480px;
+
+
+        }
 
     }
 
@@ -52,10 +64,15 @@
     .box__subtitulo{
 
         display:block;
-        
-         border-radius: 20px;
         text-align: center;
         line-height: 50px;
+        
+        
+        .aw3{
+
+            color: greenyellow;
+
+        }
         
        
     }
