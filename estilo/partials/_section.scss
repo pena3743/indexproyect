@@ -5,14 +5,15 @@
 .box__titulo {
     color: white;
     margin-top: 100px;
-    margin-left:10px;
-
+    margin-left: 10px;
+    
+    
 
     .aw2 {
 
         color: greenyellow;
         font-size: 5rem;
-
+        
 
     }
 
@@ -41,10 +42,21 @@
         
 
         .img33 {
+            transition: 3s;
             width: 500px;
+
+
             
 
         }
+            .img33:hover{
+                transition: 0.5s;
+                transform: scale(1.2);
+
+
+            }
+
+
         .mg2{
             width: 510px;
             bottom: 30px;

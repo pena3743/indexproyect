@@ -378,7 +378,7 @@
 
         .aw2 {
             
-            font-size: 2.5rem;
+            font-size: 3.5rem;
             margin: 0 auto;
 
 
@@ -417,10 +417,15 @@
                 width: 300px;
                 margin-bottom: 20px;
                 border: none;
-
+                
+                
             }
 
+            .img33:hover{
+                transition:none;
+                transform: none;
 
+            }
         }
 
     }
