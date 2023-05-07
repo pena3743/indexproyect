@@ -95,13 +95,13 @@
 .box__parrafo {
     display: block;
     max-width: 95%;
-    height: 500px;
     margin: 0 auto;
     top: 50px;
     opacity: 70%;
     background-color: black;
     color: white;
     border: 1px solid white;
+   
 
    
 
@@ -111,15 +111,20 @@
         max-width: 100%;
         width: 1500px;
         margin: 100px;
-        align-items: center;
-        justify-content: center;
-        margin-right: 400px;
+        
+        
+       
 
 
 
-        .box__img4 {
-            display: flex;
-            width: 900px;
+        
+
+
+
+        .input3{
+            text-align: center;
+            margin: 20px;
+            margin-left: 80px;
 
         }
 
@@ -127,11 +132,19 @@
 
 
 
-
-
-
-
     }
 
+
+
+
+
+
+
+}
+
+.setion22{
+width: 100%;
+background-color: black;
+margin: 0 auto;
 
 }
