@@ -89,27 +89,13 @@
 
 }
 
-.box__video1 {
-    display: block;
-    position: absolute;
-    max-width: 100%;
-    width: 100%;
-    margin: 0 auto;
-    padding: 50px;
-
-
-
-
-
-}
 
 
 
 .box__parrafo {
-    display: flex;
-    position: relative;
+    display: block;
     max-width: 95%;
-    height: 1005px;
+    height: 500px;
     margin: 0 auto;
     top: 50px;
     opacity: 70%;
@@ -117,15 +103,17 @@
     color: white;
     border: 1px solid white;
 
+   
 
 
     .box__section3 {
         display: flex;
-        width: 100%;
+        max-width: 100%;
+        width: 1500px;
         margin: 100px;
         align-items: center;
         justify-content: center;
-        margin-right: 300px;
+        margin-right: 400px;
 
 
 
