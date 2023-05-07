@@ -25,6 +25,7 @@
 
 .box__section1 {
     max-width: 100%;
+
     background-color: white;
     margin: 50px;
 
@@ -95,7 +96,7 @@
     width: 100%;
     margin: 0 auto;
     padding: 50px;
-   
+
 
 
 
@@ -108,7 +109,7 @@
     display: flex;
     position: relative;
     max-width: 95%;
-    height: 1015px;
+    height: 1005px;
     margin: 0 auto;
     top: 50px;
     opacity: 70%;
@@ -121,15 +122,26 @@
     .box__section3 {
         display: flex;
         width: 100%;
-       margin: 100px;
+        margin: 100px;
         align-items: center;
-        margin-right: 250px;
+        justify-content: center;
+        margin-right: 300px;
 
-       .img4{
 
-        width: 100px;
 
-       }
+        .box__img4 {
+            display: flex;
+            width: 900px;
+
+        }
+
+
+
+
+
+
+
+
 
     }
 
