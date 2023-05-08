@@ -410,7 +410,7 @@
     .box__headercuota {
         display: flex;
         width: 100%;
-        height: 20px;
+        height: 15px;
         background-color: white;
         margin-top: 20px;
         justify-content: center;
@@ -583,6 +583,8 @@
         margin-top: 20px;
         justify-content: center;
         gap: 15px;
+        border: none;
+        opacity: 80%;
         position: sticky;
         top: 10px;
         list-style-type: none;
@@ -598,7 +600,12 @@
 
         }
 
+        .cuota{
 
+            color: limegreen;
+    
+    
+        }
 
     }
 
