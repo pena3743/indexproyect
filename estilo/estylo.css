@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Prompt:wght@200&family=Quicksand:wght@300&family=Raleway&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -22,11 +23,15 @@ body {
   position: sticky;
   top: 10px;
   list-style-type: none;
-  border-radius: 50px;
+  opacity: 90%;
+  font-family: "Prompt", sans-serif;
 }
 .box__headercuota a {
   text-decoration: none;
   color: black;
+}
+.box__headercuota .cuota {
+  color: limegreen;
 }
 
 .box__header {
@@ -164,6 +169,19 @@ body {
 }
 .box__historia .box__historiatitulo {
   font-size: 50px;
+}
+
+.box__imagenblack {
+  max-width: 100%;
+  background-color: white;
+  padding: 50px;
+  margin: 45px;
+}
+.box__imagenblack .box__imgnegro {
+  width: 200px;
+}
+.box__imagenblack .box__imgnegro .negromodel {
+  width: 1200px;
 }
 
 @media (max-width: 1700) {
