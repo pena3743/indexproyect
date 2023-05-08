@@ -101,9 +101,9 @@
     background-color: black;
     color: white;
     border: 1px solid white;
-   
 
-   
+
+
 
 
     .box__section3 {
@@ -111,17 +111,17 @@
         max-width: 100%;
         width: 1500px;
         margin: 100px;
-        
-        
-       
 
 
 
-        
 
 
 
-        
+
+
+
+
+
 
 
 
@@ -137,21 +137,25 @@
 
 }
 
-.contenedor{
-display: flex;
-max-width: 100%;
-margin: 50px;
-justify-content: space-between;
 
 
+.box__historia {
+    display: block;
+    max-width: 100%;
+    text-align: center;
+    background-color: white;
+
+    color: black;
+    margin: 50px;
+    border-radius: 10px;
+
+    .box__historiatitulo {
+
+        font-size: 50px;
+
+    }
 
 
-.box__letras{
- display: block;   
-width: 800px;
-height: 780px;
-overflow-y: scroll;
-color: white;
 }
 
-}
+
