@@ -54,6 +54,7 @@ body {
   gap: 50px;
   list-style-type: none;
   font-size: 1.3rem;
+  font-family: "Prompt", sans-serif;
 }
 .box__header .box__links a {
   text-decoration: none;
@@ -104,6 +105,7 @@ body {
 .box__titulo .aw2 {
   color: greenyellow;
   font-size: 5rem;
+  font-family: "Prompt", sans-serif;
 }
 
 .box__section1 {
