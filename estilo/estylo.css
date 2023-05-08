@@ -152,16 +152,19 @@ body {
   width: 1500px;
   margin: 100px;
 }
-.box__parrafo .box__section3 .input3 {
-  text-align: center;
-  margin: 20px;
-  margin-left: 80px;
-}
 
-.setion22 {
-  width: 100%;
-  background-color: black;
-  margin: 0 auto;
+.contenedor {
+  display: flex;
+  max-width: 100%;
+  margin: 50px;
+  justify-content: space-between;
+}
+.contenedor .box__letras {
+  display: block;
+  width: 800px;
+  height: 780px;
+  overflow-y: scroll;
+  color: white;
 }
 
 @media (max-width: 1700) {
@@ -498,5 +501,35 @@ body {
   .box__section1 .box__img2 .img33:hover {
     transition: none;
     transform: none;
+  }
+  .box__parrafo {
+    display: flex;
+    max-width: 100%;
+    height: 900px;
+    padding: 30px;
+  }
+  .box__parrafo .box__section3 {
+    flex-direction: column;
+    width: 400px;
+  }
+  .box__parrafo .input3 {
+    text-align: start;
+    width: 400px;
+    flex-direction: row;
+  }
+  .contenedor {
+    max-width: 100%;
+    width: 500px;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .contenedor .box__letras {
+    display: flex;
+    width: 400px;
+    height: 380px;
+    text-align: center;
+    overflow-y: scroll;
+    color: white;
   }
 }/*# sourceMappingURL=estylo.css.map */
