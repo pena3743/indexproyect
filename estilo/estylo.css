@@ -17,7 +17,9 @@ body {
   display: flex;
   width: 100%;
   height: 25px;
-  background-color: white;
+  background: rgb(147, 163, 152);
+  background: linear-gradient(4deg, rgb(147, 163, 152) 0%, rgba(170, 170, 170, 0.7007177871) 44%, rgba(47, 121, 9, 0.2049194678) 68%, rgba(95, 255, 0, 0.3785889356) 100%);
+  color: white;
   margin-top: 20px;
   justify-content: space-around;
   position: sticky;
@@ -26,12 +28,8 @@ body {
   opacity: 90%;
   font-family: "Prompt", sans-serif;
 }
-.box__headercuota a {
-  text-decoration: none;
-  color: black;
-}
 .box__headercuota .cuota {
-  color: limegreen;
+  color: goldenrod;
 }
 
 .box__header {
@@ -458,7 +456,7 @@ body {
     justify-content: center;
     gap: 15px;
     border: none;
-    opacity: 80%;
+    opacity: 90%;
     position: sticky;
     top: 10px;
     list-style-type: none;

@@ -2,7 +2,9 @@
     display: flex;
     width: 100%;
     height: 25px;
-    background-color:  white ;
+    background: rgb(147,163,152);
+background: linear-gradient(4deg, rgba(147,163,152,1) 0%, rgba(170,170,170,0.700717787114846) 44%, rgba(47,121,9,0.2049194677871149) 68%, rgba(95,255,0,0.3785889355742297) 100%);
+    color: white;
     margin-top: 20px;
     justify-content:space-around;
      position: sticky;
@@ -12,23 +14,21 @@
     font-family: 'Prompt', sans-serif;
     
     
-    
-    
-    
-     a {
-        text-decoration: none;
-        color: black;
-       
-    }
-
-    
-    
     .cuota{
 
-        color: limegreen;
+        color: goldenrod;
 
 
     }
+    
+    
+     
+       
+    
+
+    
+    
+    
     
   
     
