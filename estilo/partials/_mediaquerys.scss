@@ -131,7 +131,7 @@
             display: flex;
             align-content: center;
             gap: 70px;
-            margin-right:230px;
+            margin-right: 230px;
             margin-bottom: 20px;
 
 
@@ -314,7 +314,7 @@
             display: flex;
             align-content: center;
             gap: 100px;
-            margin-right:230px;
+            margin-right: 230px;
             margin-bottom: 20px;
 
 
@@ -612,7 +612,7 @@
             display: flex;
             align-content: center;
             gap: 70px;
-            margin-right:230px;
+            margin-right: 230px;
             margin-bottom: 20px;
 
 
@@ -925,7 +925,7 @@
             display: flex;
             align-content: center;
             gap: 70px;
-            margin-right:230px;
+            margin-right: 230px;
             margin-bottom: 20px;
 
 
@@ -1253,7 +1253,7 @@
             display: flex;
             align-content: center;
             gap: 70px;
-            margin-right:230px;
+            margin-right: 230px;
             margin-bottom: 20px;
 
 
@@ -1285,8 +1285,60 @@
 
 
 
+    //pagina2 (stock) //
+
+
+    .titu2 {
+
+        margin-bottom: 150px;
+        margin-left: 20px;
+       
+
+    }
 
 
 
+    .box__grid {
+        display: flex;
+        max-width: 100%;
+        background-color: white;
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin: 0 auto;
+        padding: 20px;
+        margin-bottom: 40px;
+
+
+
+
+        .box__grid {
+            max-width: 100%;
+            display: block;
+            background-color: white;
+            line-height: 25px;
+            flex-direction: column;
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+        .img__grid {
+
+            width: 400px;
+            margin: 0 auto;
+
+
+        }
+    }
 
 }

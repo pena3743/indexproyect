@@ -185,6 +185,30 @@ body {
   width: 100%;
 }
 
+.titu2 {
+  margin-bottom: 400px;
+}
+
+.box__grid {
+  display: grid;
+  width: 100%;
+  background-color: white;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+.box__grid .box__grid {
+  max-width: 70%;
+  display: block;
+  background-color: white;
+  line-height: 70px;
+}
+.box__grid .img__grid {
+  width: 600px;
+}
+
 .box__footer {
   max-width: 100%;
   height: 190px;
@@ -903,5 +927,31 @@ body {
     text-align: justify;
     font-family: "Prompt", sans-serif;
     font-size: 0.5rem;
+  }
+  .titu2 {
+    margin-bottom: 150px;
+    margin-left: 20px;
+  }
+  .box__grid {
+    display: flex;
+    max-width: 100%;
+    background-color: white;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  .box__grid .box__grid {
+    max-width: 100%;
+    display: block;
+    background-color: white;
+    line-height: 25px;
+    flex-direction: column;
+  }
+  .box__grid .img__grid {
+    width: 400px;
+    margin: 0 auto;
   }
 }/*# sourceMappingURL=estylo.css.map */
