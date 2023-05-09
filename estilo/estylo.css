@@ -29,7 +29,7 @@ body {
   font-family: "Prompt", sans-serif;
 }
 .box__headercuota .cuota {
-  color: goldenrod;
+  color: olive;
 }
 
 .box__header {
@@ -460,12 +460,7 @@ body {
     opacity: 90%;
     position: sticky;
     top: 10px;
-    list-style-type: none;
     font-size: 10px;
-  }
-  .box__headercuota a {
-    text-decoration: none;
-    color: black;
   }
   .box__headercuota .cuota {
     color: limegreen;
