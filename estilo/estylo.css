@@ -216,6 +216,11 @@ body a {
 .box__grid1 .img__grid {
   width: 550px;
   margin-bottom: 20px;
+  transition: 3s;
+}
+.box__grid1 .img__grid:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
 }
 
 .box__footer {
@@ -366,6 +371,31 @@ body a {
     margin-right: 230px;
     margin-bottom: 20px;
   }
+  .titu2 {
+    margin-bottom: 150px;
+  }
+  .box__grid1 {
+    display: grid;
+    max-width: 100%;
+    background-color: white;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  .box__grid1 .box__grid {
+    max-width: 100%;
+    display: block;
+    background-color: white;
+    line-height: 25px;
+    flex-direction: column;
+    margin: 0 auto;
+    font-size: 15px;
+    margin-left: 12px;
+  }
+  .box__grid1 .img__grid {
+    width: 450px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
 }
 @media (max-width: 1000px) {
   .box__headercuota {
@@ -457,6 +487,31 @@ body a {
     gap: 100px;
     margin-right: 230px;
     margin-bottom: 20px;
+  }
+  .titu2 {
+    margin-bottom: 150px;
+  }
+  .box__grid1 {
+    display: grid;
+    max-width: 100%;
+    background-color: white;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  .box__grid1 .box__grid {
+    max-width: 100%;
+    display: block;
+    background-color: white;
+    line-height: 25px;
+    flex-direction: column;
+    margin: 0 auto;
+    font-size: 15px;
+    margin-left: 12px;
+  }
+  .box__grid1 .img__grid {
+    width: 400px;
+    margin-bottom: 10px;
+    margin-top: 20px;
   }
 }
 @media (max-width: 850px) {
@@ -612,6 +667,32 @@ body a {
     text-align: justify;
     font-family: "Prompt", sans-serif;
     font-size: 0.7rem;
+  }
+  .titu2 {
+    margin-bottom: 150px;
+    margin-right: 40px;
+  }
+  .box__grid1 {
+    display: grid;
+    max-width: 100%;
+    background-color: white;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  .box__grid1 .box__grid {
+    max-width: 100%;
+    display: block;
+    background-color: white;
+    line-height: 25px;
+    flex-direction: column;
+    margin: 0 auto;
+    font-size: 15px;
+    margin-left: 12px;
+  }
+  .box__grid1 .img__grid {
+    width: 300px;
+    margin-bottom: 10px;
+    margin-top: 20px;
   }
 }
 @media (max-width: 700px) {
@@ -770,6 +851,30 @@ body a {
     text-align: justify;
     font-family: "Prompt", sans-serif;
     font-size: 0.6rem;
+  }
+  .titu2 {
+    margin-bottom: 150px;
+  }
+  .box__grid1 {
+    display: flex;
+    max-width: 100%;
+    background-color: white;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  .box__grid1 .box__grid {
+    max-width: 100%;
+    display: block;
+    background-color: white;
+    line-height: 25px;
+    font-size: 15px;
+  }
+  .box__grid1 .img__grid {
+    width: 500px;
+    margin-bottom: 10px;
+    margin-top: 20px;
   }
 }
 @media (max-width: 500px) {

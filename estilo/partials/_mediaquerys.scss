@@ -140,6 +140,66 @@
         }
     }
 
+ //pagina 2 (Stock) 
+
+
+ .titu2 {
+
+    margin-bottom: 150px;
+    
+   
+
+}
+
+
+
+.box__grid1 {
+    display: grid;
+    max-width: 100%;
+    background-color: white;
+    
+    gap: 10px;
+    margin-bottom: 40px;
+    
+   
+   
+
+
+
+
+    .box__grid {
+        max-width: 100%;
+        display: block;
+        background-color: white;
+        line-height: 25px;
+        flex-direction: column;
+        margin: 0 auto;
+        font-size: 15px;
+        margin-left: 12px;
+
+
+
+    }
+
+
+
+
+
+
+
+
+    .img__grid {
+
+        width: 450px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+
+    }
+}
+
+
+
+
 }
 
 
@@ -322,6 +382,64 @@
 
         }
     }
+
+
+
+ // pagina 2 (stock)
+
+ .titu2 {
+
+    margin-bottom: 150px;
+    
+   
+
+}
+
+
+
+.box__grid1 {
+    display: grid;
+    max-width: 100%;
+    background-color: white;
+    gap: 10px;
+    margin-bottom: 40px;
+    
+    
+   
+   
+
+
+
+
+    .box__grid {
+        max-width: 100%;
+        display: block;
+        background-color: white;
+        line-height: 25px;
+        flex-direction: column;
+        margin: 0 auto;
+        font-size: 15px;
+        margin-left: 12px;
+
+
+
+    }
+
+
+
+
+
+
+
+
+    .img__grid {
+
+        width: 400px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+
+    }
+}
 
 
 }
@@ -634,9 +752,61 @@
 
 
 
+ // pagina 2 (stock)
+
+ .titu2 {
+
+    margin-bottom: 150px;
+    margin-right: 40px;
+   
+
+}
 
 
 
+.box__grid1 {
+    display: grid;
+    max-width: 100%;
+    background-color: white;
+    gap: 10px;
+    margin-bottom: 40px;
+    
+    
+   
+   
+
+
+
+
+    .box__grid {
+        max-width: 100%;
+        display: block;
+        background-color: white;
+        line-height: 25px;
+        flex-direction: column;
+        margin: 0 auto;
+        font-size: 15px;
+        margin-left: 12px;
+
+
+
+    }
+
+
+
+
+
+
+
+
+    .img__grid {
+
+        width: 300px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+
+    }
+}
 
 
 }
@@ -943,6 +1113,66 @@
         font-family: 'Prompt', sans-serif;
         font-size: 0.6rem;
 
+    }
+
+
+
+    //pagina 2 (stock)
+
+
+    .titu2 {
+
+        margin-bottom: 150px;
+        
+       
+
+    }
+
+
+
+    .box__grid1 {
+        display: flex;
+        max-width: 100%;
+        background-color: white;
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 10px;
+        margin-bottom: 40px;
+        
+       
+       
+
+
+
+
+        .box__grid {
+            max-width: 100%;
+            display: block;
+            background-color: white;
+            line-height: 25px;
+            font-size: 15px;
+            
+            
+            
+
+
+
+        }
+
+
+
+
+
+
+
+
+        .img__grid {
+
+            width: 500px;
+            margin-bottom: 10px;
+            margin-top: 20px;
+
+        }
     }
 
 
