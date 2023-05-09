@@ -198,17 +198,17 @@ body a {
   background-color: white;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
-  padding: 40px;
-  margin-bottom: 100px;
+  padding: 25px;
 }
 .box__grid1 .box__grid {
-  max-width: 70%;
+  max-width: 100%;
   display: block;
   background-color: white;
   line-height: 50px;
-  margin: 0 auto;
   margin-bottom: 20px;
   font-size: 25px;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 .box__grid1 .box__grid .stockcolor {
   color: rgb(102, 247, 73);
@@ -599,7 +599,6 @@ body a {
     justify-content: space-around;
     background-color: white;
     color: black;
-    border-top: 3px solid black;
     padding: 50px;
   }
   .box__footer .img__footer {
@@ -784,7 +783,6 @@ body a {
     justify-content: space-around;
     background-color: white;
     color: black;
-    border-top: 3px solid black;
   }
   .box__footer .img__footer {
     width: 100px;
@@ -891,7 +889,7 @@ body a {
     opacity: 90%;
     position: sticky;
     top: 10px;
-    font-size: 10px;
+    font-size: 9px;
   }
   .box__headercuota .cuota {
     color: chartreuse;
@@ -974,7 +972,6 @@ body a {
     justify-content: center;
     background-color: white;
     color: black;
-    border-top: 3px solid black;
     padding: 30px;
   }
   .box__footer .img__footer {
