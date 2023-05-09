@@ -245,7 +245,7 @@ body {
   display: flex;
   align-content: center;
   gap: 50px;
-  margin-left: 230px;
+  margin-left: 220px;
   margin-bottom: 10px;
 }
 
@@ -330,7 +330,7 @@ body {
     display: flex;
     align-content: center;
     gap: 70px;
-    margin-right: 20px;
+    margin-right: 230px;
     margin-bottom: 20px;
   }
 }
@@ -422,7 +422,7 @@ body {
     display: flex;
     align-content: center;
     gap: 100px;
-    margin-right: 20px;
+    margin-right: 230px;
     margin-bottom: 20px;
   }
 }
@@ -569,7 +569,7 @@ body {
     display: flex;
     align-content: center;
     gap: 70px;
-    margin-right: 20px;
+    margin-right: 230px;
     margin-bottom: 20px;
   }
   .box__legalfoot {
@@ -727,7 +727,7 @@ body {
     display: flex;
     align-content: center;
     gap: 70px;
-    margin-right: 20px;
+    margin-right: 230px;
     margin-bottom: 20px;
   }
   .box__legalfoot {
@@ -893,7 +893,7 @@ body {
     display: flex;
     align-content: center;
     gap: 70px;
-    margin-right: 20px;
+    margin-right: 230px;
     margin-bottom: 20px;
   }
   .box__legalfoot {
