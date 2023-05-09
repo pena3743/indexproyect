@@ -216,7 +216,7 @@
     }
 
 
-
+    
 
 }
 
@@ -237,7 +237,8 @@
         display: flex;
         width: 100%;
         height: 23px;
-        background-color: white;
+        background: rgb(150,163,147);
+        background: linear-gradient(4deg, rgba(150,163,147,0.577468487394958) 0%, rgba(173,179,162,0.14049369747899154) 36%, rgba(215,226,210,0) 67%, rgba(95,255,0,0.227328431372549) 100%);
         margin-top: 20px;
         justify-content: center;
         gap: 15px;
@@ -361,7 +362,7 @@
     .box__parrafo {
         display: block;
         max-width: 100%;
-        height: 850px;
+        height: 550px;
         padding: 20px;
 
 
@@ -377,7 +378,7 @@
 
         .input3 {
             top: 300px;
-            width: 500px;
+            width: 100%;
             padding: 40px;
 
 
@@ -385,6 +386,127 @@
 
 
     }
+
+
+    .box__footer {
+        max-width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: white;
+        color: black;
+        border-top: 3px solid black;
+        padding: 50px;
+        
+        .img__footer {
+    
+            width: 100px;
+            height: 50px;
+            
+        }
+    
+        .box__linkfoot {
+            display: block;
+            font-size: 10px;
+            align-items: center;
+            list-style-type: none;
+            line-height: 30px;
+            
+    
+    
+    
+        }
+    
+    
+    
+        .box__linkfoot2 {
+            display: block;
+            list-style-type: none;
+            line-height: 35px;
+            font-size: 10px;
+            line-height: 20px;
+            margin-right: 60px;
+
+        }
+    
+        a {
+    
+            text-decoration: none;
+            color: black;
+    
+            a:hover {
+                
+                color: greenyellow;
+    
+    
+            }
+    
+        }
+    
+    
+    
+    
+    
+        .box__logcard2 {
+            width: 100px;
+            display: flex;
+            flex-direction: column;
+           
+    
+            .box__creditimg {
+                width: 50px;
+                
+    
+    
+    
+    
+            }
+    
+            .logo1 {
+    
+                width: 30px;
+    
+            }
+
+            .logo2{
+
+                width: 30px;
+
+
+            }
+    
+            .logo3{
+                width: 30px;
+    
+    
+            }
+    
+    
+    
+        }
+    
+    
+    
+    
+    }
+    
+    .box__legalfoot{
+    
+    background-color: black;
+    color: white;
+    opacity: 70%;
+    text-align:  justify;
+    font-family: 'Prompt', sans-serif;
+    font-size: 0.7rem;
+    
+    }
+
+
+
+
+
+
 
 
 }
@@ -411,7 +533,8 @@
         display: flex;
         width: 100%;
         height: 15px;
-        background-color: white;
+        background: rgb(150,163,147);
+        background: linear-gradient(4deg, rgba(150,163,147,0.577468487394958) 0%, rgba(173,179,162,0.14049369747899154) 36%, rgba(215,226,210,0) 67%, rgba(95,255,0,0.227328431372549) 100%);
         margin-top: 20px;
         justify-content: center;
         gap: 15px;
@@ -557,8 +680,119 @@
     }
 
 
+    .box__footer {
+        max-width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: white;
+        color: black;
+        border-top: 3px solid black;
+        
+        .img__footer {
+    
+            width: 100px;
+            height: 50px;
+    
+        }
+    
+        .box__linkfoot {
+            display: block;
+            font-size: 10px;
+            align-items: center;
+            list-style-type: none;
+            line-height: 30px;
+            
+    
+    
+    
+        }
+    
+    
+    
+        .box__linkfoot2 {
+            display: block;
+            list-style-type: none;
+            line-height: 35px;
+            font-size: 10px;
+            line-height: 20px;
+            margin-right: 40px;
+        }
+    
+        a {
+    
+            text-decoration: none;
+            color: black;
+    
+            a:hover {
+                
+                color: greenyellow;
+    
+    
+            }
+    
+        }
+    
+    
+    
+    
+    
+        .box__logcard2 {
+            width: 100px;
+            display: flex;
+            flex-direction: column;
+           
+    
+            .box__creditimg {
+                width: 150px;
+                
+    
+    
+    
+    
+            }
+    
+            .logo1 {
+    
+                width: 30px;
+    
+            }
 
-    .contenedor {}
+            .logo2{
+
+                width: 30px;
+
+
+            }
+    
+            .logo3{
+                width: 30px;
+    
+    
+            }
+    
+    
+    
+        }
+    
+    
+    
+    
+    }
+    
+    .box__legalfoot{
+    
+    background-color: black;
+    color: white;
+    opacity: 70%;
+    text-align:  justify;
+    font-family: 'Prompt', sans-serif;
+    font-size: 0.6rem;
+    
+    }
+
+    
 
 
 
@@ -599,7 +833,7 @@
 
         .cuota{
 
-            color: limegreen;
+            color:chartreuse;
     
     
         }
@@ -635,7 +869,7 @@
             gap: 2px;
             margin-right: 20px;
             list-style-type: decimal-leading-zero;
-
+            
 
         }
 
@@ -749,7 +983,117 @@
 
 
 
+    .box__footer {
+        max-width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        color: black;
+        border-top: 3px solid black;
+        
+        .img__footer {
+    
+            width: 100px;
+            height: 50px;
+    
+        }
+    
+        .box__linkfoot {
+            display: block;
+            font-size: 10px;
+            align-items: center;
+            list-style-type: none;
+            line-height: 20px;
+            
+    
+    
+    
+        }
+    
+    
+    
+        .box__linkfoot2 {
+            display: block;
+            list-style-type: none;
+            line-height: 35px;
+            font-size: 10px;
+            line-height: 20px;
+            margin-right: 40px;
+        }
+    
+        a {
+    
+            text-decoration: none;
+            color: black;
+    
+            a:hover {
+                
+                color: greenyellow;
+    
+    
+            }
+    
+        }
+    
+    
+    
+    
+    
+        .box__logcard2 {
+            width: 100px;
+            display: block;
+            
+           
+    
+            .box__creditimg {
+                width: 50px;
+                
+    
+    
+    
+    
+            }
+    
+            .logo1 {
+    
+                width: 30px;
+    
+            }
 
+            .logo2{
+
+                width: 30px;
+
+
+            }
+    
+            .logo3{
+                width: 30px;
+    
+    
+            }
+    
+    
+    
+        }
+    
+    
+    
+    
+    }
+    
+    .box__legalfoot{
+    
+    background-color: black;
+    color: white;
+    opacity: 70%;
+    text-align:  justify;
+    font-family: 'Prompt', sans-serif;
+    font-size: 0.5rem;
+    
+    }
 
 
 
