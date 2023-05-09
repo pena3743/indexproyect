@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Prompt:wght@200&family=Quicksand:wght@300&family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2? family= Raleway:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400 & display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -161,25 +162,27 @@ body {
   display: block;
   max-width: 100%;
   text-align: center;
-  color: white;
   margin: 50px;
   border-radius: 10px;
+  color: white;
+  font-family: "Raleway", sans-serif;
 }
 .box__historia .box__historiatitulo {
-  font-size: 40px;
+  font-size: 60px;
 }
 
 .box__imagenblack {
   max-width: 100%;
-  background-color: white;
-  padding: 50px;
+  background: rgb(150, 163, 147);
+  background: linear-gradient(45deg, rgb(150, 163, 147) 0%, rgb(173, 179, 162) 32%, rgb(215, 226, 210) 60%, rgba(86, 255, 0, 0.9976365546) 96%);
+  padding: 5px;
   margin: 45px;
 }
 .box__imagenblack .box__imgnegro {
-  width: 200px;
+  display: block;
 }
-.box__imagenblack .box__imgnegro .negromodel {
-  width: 1200px;
+.box__imagenblack .box__imgnegro .box__videomark {
+  width: 100%;
 }
 
 .box__footer {
@@ -191,6 +194,7 @@ body {
   background-color: white;
   color: black;
   border-top: 3px solid black;
+  font-family: Arial, Helvetica, sans-serif, "Times New Roman", Times, serif, "Arial Narrow", Arial, sans-serif, sans-serif;
 }
 .box__footer .img__footer {
   width: 300px;
@@ -240,6 +244,22 @@ body {
 }
 
 @media (max-width: 1700px) {
+  .box__header {
+    display: flex;
+    max-width: 100%;
+  }
+  .box__header .box__img1 {
+    width: 450px;
+    margin-left: 70px;
+  }
+  .box__header .box__links {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+    gap: 40px;
+    margin-right: 100px;
+    list-style-type: decimal-leading-zero;
+  }
   .box__parrafo {
     display: none;
     width: 100%;
@@ -275,6 +295,7 @@ body {
     padding: 20px;
   }
   .box__parrafo .box__section3 {
+    display: block;
     margin: 0 auto;
   }
   .box__parrafo .input3 {

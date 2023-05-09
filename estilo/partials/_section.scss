@@ -143,15 +143,16 @@
     display: block;
     max-width: 100%;
     text-align: center;
-    color: white;
     margin: 50px;
     border-radius: 10px;
-
+    
+    color: white;
+    font-family: 'Raleway', sans-serif;
 
 
     .box__historiatitulo {
 
-        font-size: 40px;
+        font-size: 60px;
 
     }
 
@@ -160,22 +161,25 @@
 
 .box__imagenblack {
     max-width: 100%;
-    background-color: white;
-    padding: 50px;
+    background: rgb(150,163,147);
+    background: linear-gradient(45deg, rgba(150,163,147,1) 0%, rgba(173,179,162,1) 32%, rgba(215,226,210,1) 60%, rgba(86,255,0,0.9976365546218487) 96%);
+    padding: 5px;
     margin: 45px;
+   
 
-    .box__imgnegro {
+    .box__imgnegro{
+       display: block; 
+       
 
-        width: 200px;
 
 
 
-        .negromodel {
+        .box__videomark{
 
-            width: 1200px;
+            width: 100%;
+
 
         }
-
 
     }
 
