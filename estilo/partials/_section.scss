@@ -161,20 +161,20 @@
 
 .box__imagenblack {
     max-width: 100%;
-    background: rgb(150,163,147);
-    background: linear-gradient(45deg, rgba(150,163,147,1) 0%, rgba(173,179,162,1) 32%, rgba(215,226,210,1) 60%, rgba(86,255,0,0.9976365546218487) 96%);
+    background: rgb(150, 163, 147);
+    background: linear-gradient(45deg, rgba(150, 163, 147, 1) 0%, rgba(173, 179, 162, 1) 32%, rgba(215, 226, 210, 1) 60%, rgba(86, 255, 0, 0.9976365546218487) 96%);
     padding: 5px;
     margin: 45px;
 
 
-    .box__imgnegro{
-       display: none;
+    .box__imgnegro {
+        display: none;
 
 
 
 
 
-        .box__videomark{
+        .box__videomark {
 
             width: 100%;
 
@@ -192,49 +192,60 @@
 
 
 
-.titu2{
+.titu2 {
 
-margin-bottom: 200px;
-
-
-}
-
-
-
-
-.box__grid{
-display: grid;
-width: 100%;
-background-color: white;
-grid-template-columns: 1fr 1fr;
-gap: 10px;
-margin: 0 auto;
-padding: 20px;
-margin-bottom: 100px;
-
-
-
-
-
-
-
-
-.box__grid{
- max-width: 70%;   
-display: block;   
-background-color: white;
-line-height: 70px;
-
-}
-
-
-
-
-.img__grid{
-
-width: 600px;
-
+    margin-bottom: 200px;
 
 
 }
+
+
+
+
+.box__grid1 {
+    display: grid;
+    width: 100%;
+    background-color: white;
+    grid-template-columns: 1fr 1fr;
+    
+    gap: 10px;
+    padding: 40px;
+    margin-bottom: 100px;
+    
+    
+
+
+
+
+
+
+
+    .box__grid {
+        max-width: 70%;
+        display: block;
+        background-color: white;
+        line-height: 50px;
+        margin: 0 auto;
+       margin-bottom: 20px;
+       
+        font-size: 25px;
+        
+        .stockcolor{
+        color: $colordecoracion; 
+
+
+        }
+
+    }
+
+
+
+
+    .img__grid {
+
+        width: 550px;
+        margin-bottom: 20px;
+
+
+    }
 }

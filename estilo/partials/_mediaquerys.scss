@@ -1291,23 +1291,23 @@
     .titu2 {
 
         margin-bottom: 150px;
-        margin-left: 20px;
+        
        
 
     }
 
 
 
-    .box__grid {
-        display: flex;
+    .box__grid1 {
+        display: block;
         max-width: 100%;
         background-color: white;
         flex-direction: column;
-        grid-template-columns: 1fr 1fr;
         gap: 10px;
-        margin: 0 auto;
-        padding: 20px;
         margin-bottom: 40px;
+        
+       
+       
 
 
 
@@ -1318,8 +1318,9 @@
             background-color: white;
             line-height: 25px;
             flex-direction: column;
-
-
+            margin: 0 auto;
+            font-size: 15px;
+            margin-left: 12px;
 
 
 
@@ -1335,8 +1336,8 @@
         .img__grid {
 
             width: 350px;
-            margin: 0 auto;
-
+            margin-bottom: 10px;
+            margin-top: 20px;
 
         }
     }
