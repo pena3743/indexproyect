@@ -165,12 +165,28 @@ body a {
   background-color: white;
   padding: 5px;
   margin: 45px;
+  margin-bottom: 200px;
 }
 .box__imagenblack .box__imgnegro {
   display: block;
 }
 .box__imagenblack .box__imgnegro .box__videomark {
   width: 100%;
+}
+.box__imagenblack .box__undervideo {
+  max-width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box__imagenblack .box__undervideo .box__underimg {
+  width: 700px;
+}
+.box__imagenblack .imgunder {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
 }
 
 .titu2 {
@@ -270,7 +286,7 @@ body a {
   display: flex;
   align-content: center;
   gap: 50px;
-  margin-left: 220px;
+  margin-left: 230px;
   margin-bottom: 10px;
 }
 
@@ -940,13 +956,35 @@ body a {
     padding: 2px;
     margin: 0 auto;
     background-color: white;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
   }
   .box__imagenblack .box__imgnegro {
     width: 428px;
   }
   .box__imagenblack .box__imgnegro .box__videomark {
     width: 100%;
+  }
+  .box__imagenblack .box__undervideo {
+    max-width: 100%;
+    height: 290px;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .box__imagenblack .box__undervideo .box__underimg {
+    margin: 0 auto;
+    width: 400px;
+    height: 290px;
+  }
+  .box__imagenblack .imgunder1 {
+    display: none;
+  }
+  .box__imagenblack .imgunder1 .imgunder {
+    width: 450px;
+    height: 200px;
+    margin: 0 auto;
   }
   .box__parrafo {
     display: flex;

@@ -140,62 +140,62 @@
         }
     }
 
- //pagina 2 (Stock) 
+    //pagina 2 (Stock) 
 
 
- .titu2 {
+    .titu2 {
 
-    margin-bottom: 150px;
-    
-   
-
-}
+        margin-bottom: 150px;
 
 
 
-.box__grid1 {
-    display: grid;
-    max-width: 100%;
-    background-color: white;
-    
-    gap: 10px;
-    margin-bottom: 40px;
-    
-   
-   
+    }
 
 
 
-
-    .box__grid {
+    .box__grid1 {
+        display: grid;
         max-width: 100%;
-        display: block;
         background-color: white;
-        line-height: 25px;
-        flex-direction: column;
-        margin: 0 auto;
-        font-size: 15px;
-        margin-left: 12px;
+
+        gap: 10px;
+        margin-bottom: 40px;
 
 
 
+
+
+
+
+        .box__grid {
+            max-width: 100%;
+            display: block;
+            background-color: white;
+            line-height: 25px;
+            flex-direction: column;
+            margin: 0 auto;
+            font-size: 15px;
+            margin-left: 12px;
+
+
+
+        }
+
+
+
+
+
+
+
+
+        .img__grid {
+
+            width: 450px;
+            margin-bottom: 10px;
+            margin-top: 20px;
+
+        }
     }
-
-
-
-
-
-
-
-
-    .img__grid {
-
-        width: 450px;
-        margin-bottom: 10px;
-        margin-top: 20px;
-
-    }
-}
 
 
 
@@ -385,61 +385,61 @@
 
 
 
- // pagina 2 (stock)
+    // pagina 2 (stock)
 
- .titu2 {
+    .titu2 {
 
-    margin-bottom: 150px;
-    
-   
-
-}
+        margin-bottom: 150px;
 
 
 
-.box__grid1 {
-    display: grid;
-    max-width: 100%;
-    background-color: white;
-    gap: 10px;
-    margin-bottom: 40px;
-    
-    
-   
-   
+    }
 
 
 
-
-    .box__grid {
+    .box__grid1 {
+        display: grid;
         max-width: 100%;
-        display: block;
         background-color: white;
-        line-height: 25px;
-        flex-direction: column;
-        margin: 0 auto;
-        font-size: 15px;
-        margin-left: 12px;
+        gap: 10px;
+        margin-bottom: 40px;
 
 
 
+
+
+
+
+
+        .box__grid {
+            max-width: 100%;
+            display: block;
+            background-color: white;
+            line-height: 25px;
+            flex-direction: column;
+            margin: 0 auto;
+            font-size: 15px;
+            margin-left: 12px;
+
+
+
+        }
+
+
+
+
+
+
+
+
+        .img__grid {
+
+            width: 400px;
+            margin-bottom: 10px;
+            margin-top: 20px;
+
+        }
     }
-
-
-
-
-
-
-
-
-    .img__grid {
-
-        width: 400px;
-        margin-bottom: 10px;
-        margin-top: 20px;
-
-    }
-}
 
 
 }
@@ -621,7 +621,7 @@
         justify-content: space-around;
         background-color: white;
         color: black;
-        
+
         padding: 50px;
 
         .img__footer {
@@ -752,61 +752,61 @@
 
 
 
- // pagina 2 (stock)
+    // pagina 2 (stock)
 
- .titu2 {
+    .titu2 {
 
-    margin-bottom: 150px;
-    margin-right: 40px;
-   
-
-}
+        margin-bottom: 150px;
+        margin-right: 40px;
 
 
-
-.box__grid1 {
-    display: grid;
-    max-width: 100%;
-    background-color: white;
-    gap: 10px;
-    margin-bottom: 40px;
-    
-    
-   
-   
+    }
 
 
 
-
-    .box__grid {
+    .box__grid1 {
+        display: grid;
         max-width: 100%;
-        display: block;
         background-color: white;
-        line-height: 25px;
-        flex-direction: column;
-        margin: 0 auto;
-        font-size: 15px;
-        margin-left: 12px;
+        gap: 10px;
+        margin-bottom: 40px;
 
 
 
+
+
+
+
+
+        .box__grid {
+            max-width: 100%;
+            display: block;
+            background-color: white;
+            line-height: 25px;
+            flex-direction: column;
+            margin: 0 auto;
+            font-size: 15px;
+            margin-left: 12px;
+
+
+
+        }
+
+
+
+
+
+
+
+
+        .img__grid {
+
+            width: 300px;
+            margin-bottom: 10px;
+            margin-top: 20px;
+
+        }
     }
-
-
-
-
-
-
-
-
-    .img__grid {
-
-        width: 300px;
-        margin-bottom: 10px;
-        margin-top: 20px;
-
-    }
-}
 
 
 }
@@ -987,7 +987,7 @@
         justify-content: space-around;
         background-color: white;
         color: black;
-        
+
 
         .img__footer {
 
@@ -1122,8 +1122,8 @@
     .titu2 {
 
         margin-bottom: 150px;
-        
-       
+
+
 
     }
 
@@ -1137,9 +1137,9 @@
         margin: 0 auto;
         gap: 10px;
         margin-bottom: 40px;
-        
-       
-       
+
+
+
 
 
 
@@ -1150,9 +1150,9 @@
             background-color: white;
             line-height: 25px;
             font-size: 15px;
-            
-            
-            
+
+
+
 
 
 
@@ -1195,7 +1195,7 @@
         display: flex;
         width: 100%;
         height: 15px;
-         background-color: black;
+        background-color: black;
         margin-top: 20px;
         justify-content: center;
         gap: 15px;
@@ -1327,36 +1327,90 @@
     }
 
 
-    
-.box__imagenblack {
-    display: block;
-    max-width: 100%;
-    
-    padding: 2px;
-    margin: 0 auto;
-    background-color: white;
-    margin-bottom: 40px;
 
-    .box__imgnegro {
-        width: 428px;
-         
-       
-        
+    .box__imagenblack {
+        display: block;
+        max-width: 100%;
+
+        padding: 2px;
+        margin: 0 auto;
+        background-color: white;
+        margin-bottom: 50px;
+
+        .box__imgnegro {
+            width: 428px;
 
 
 
 
-        .box__videomark {
 
-            width: 100%;
+
+
+            .box__videomark {
+
+                width: 100%;
+
+
+            }
+
+        }
+
+        .box__undervideo {
+            max-width: 100%;
+            height: 290px;
+            display: flex;
+            background-color: white;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+            
+
+
+
+
+            .box__underimg {
+                
+                margin: 0 auto;
+                width: 400px;
+                height: 290px;
+
+
+
+            }
 
 
         }
 
+
+        .imgunder1{
+            display: none;
+
+
+
+            .imgunder {
+            
+            width: 450px;
+            height: 200px;
+            margin: 0 auto;
+
+        }
+
+
+        }
+
+        
+
     }
 
 
-}
+
+
+
+
+
+
+
+
 
 
 
@@ -1401,7 +1455,7 @@
         justify-content: center;
         background-color: white;
         color: black;
-        
+
         padding: 30px;
 
         .img__footer {
@@ -1548,8 +1602,8 @@
     .titu2 {
 
         margin-bottom: 150px;
-        
-       
+
+
 
     }
 
@@ -1562,9 +1616,9 @@
         flex-direction: column;
         gap: 10px;
         margin-bottom: 40px;
-        
-       
-       
+
+
+
 
 
 
