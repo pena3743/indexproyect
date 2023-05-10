@@ -218,7 +218,7 @@ body a {
   grid-template-columns: 1fr 1fr;
   gap: 10px;
   padding: 25px;
-  margin-bottom: 20px;
+  margin-bottom: 200px;
 }
 .box__grid1 .box__grid {
   max-width: 100%;
