@@ -11,16 +11,40 @@
         font-size: 5rem;
         font-family: 'Prompt', sans-serif;
 
-    }
 
+    }
 
 
 
 }
 
+.titulares {
+
+    margin-bottom: 200px;
+    
+
+}
+
+.box__tituloliquidacion{
+display: flex;
+background-color: white;
+justify-content: center;
+margin-bottom: 5px;
+font-family: 'Prompt', sans-serif;
+opacity: 90%;
 
 
 
+
+    .cupon40{
+
+        color: $colordecoracion ;
+
+
+    }
+
+
+}
 
 
 .box__section1 {
@@ -175,7 +199,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-    
+
 
 
 
@@ -226,7 +250,7 @@
     gap: 10px;
     padding: 25px;
     margin-bottom: 20px;
-
+    
 
 
 
@@ -245,10 +269,29 @@
         font-size: 25px;
         margin: 0 auto;
         margin-bottom: 20px;
+        border-bottom: 1px solid black;
+        
+        padding: 10px;
+
+
 
         .stockcolor {
             color: $colordecoracion;
 
+
+
+        }
+
+
+        .button__interes {
+
+            color: grey;
+
+        }
+
+        .ultimasunidades{
+
+            color: rgba(231, 11, 11, 0.719);
 
         }
 
@@ -262,7 +305,7 @@
         width: 550px;
         margin-bottom: 20px;
         transition: 3s;
-
+        border-radius: 5px;
     }
 
 
