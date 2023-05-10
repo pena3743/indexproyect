@@ -7,7 +7,7 @@
 }
 
 body {
-  border: 2px solid rgba(225, 236, 225, 0.658);
+  border-top: 2px solid rgba(225, 236, 225, 0.658);
   margin: 5px;
   border-radius: 10px;
   padding: 10px;
