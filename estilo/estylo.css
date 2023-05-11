@@ -225,14 +225,13 @@ body a {
   display: block;
   background-color: white;
   line-height: 50px;
-  margin-bottom: 20px;
   font-size: 25px;
-  margin: 0 auto;
   margin-bottom: 20px;
+  margin-right: 30px;
   border-bottom: 1px solid black;
-  border-radius: px;
-  padding: 30px;
-  box-shadow: 0 0 5px black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 auto;
 }
 .box__grid1 .box__grid .stockcolor {
   color: rgb(102, 247, 73);
