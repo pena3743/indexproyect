@@ -41,13 +41,24 @@
 
 
 
-
 .box__header {
 
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin-right: 100px;
+    transition: 2s;
+    animation-name: colorr;
+    
+    
+    
+       
+ 
+
+    
+
+
+
 
     .box__img1 {
 
