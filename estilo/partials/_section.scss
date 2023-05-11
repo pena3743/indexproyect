@@ -130,8 +130,8 @@
     max-width: 95%;
     margin: 0 auto;
     top: 50px;
-    opacity: 70%;
-    background-color: black;
+    
+    background-color: rgba(0, 0, 0, 0.555);
     color: white;
     border: 1px solid white;
 
@@ -254,12 +254,12 @@
 .box__grid1 {
     display: grid;
     width: 100%;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.87);
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     padding: 25px;
     margin-bottom: 200px;
-
+    
 
 
 
@@ -273,14 +273,17 @@
         max-width: 100%;
         display: block;
         background-color: white;
-        line-height: 50px;
+         line-height: 50px;
         margin-bottom: 20px;
         font-size: 25px;
         margin: 0 auto;
         margin-bottom: 20px;
-        border-bottom: 1px solid black;
-
-        padding: 10px;
+        border-bottom: 1px solid black ;
+        border-radius: px;
+        padding: 30px;
+        box-shadow: 0 0 5px black;
+       
+        
 
 
 
