@@ -116,7 +116,7 @@
 
 
     }
-  
+
 
 
     .box__imagenblack {
@@ -453,12 +453,12 @@
 
     }
 
- 
 
 
 
 
-    
+
+
 
 
 
@@ -530,7 +530,7 @@
 
 
         .imgunder1 {
-            
+
             display: none;
 
 
@@ -799,7 +799,7 @@
 
         .input3 {
 
-            
+
             max-width: 100%;
             width: 500px;
             flex-direction: row;
@@ -808,7 +808,7 @@
 
 
     }
- 
+
 
     .box__imagenblack {
         display: block;
@@ -1108,33 +1108,26 @@
 
 @media (max-width:700px) {
 
-    .box__headercuota {
-        display: flex;
-        width: 100%;
-        height: 15px;
-        background-color: white;
-        margin-top: 20px;
-        justify-content: center;
-        gap: 15px;
+
+
+    .box__slide-cuotas-hotsale-bancos {
+
+        background-color: rgba(0, 0, 0, 0.753);
+        color: white;
+        height: 25px;
+        margin-top: 10px;
+        border-radius: 10px;
+        text-align: center;
         position: sticky;
-        top: 10px;
-        list-style-type: none;
-        font-size: 10px;
+        top: 100px;
 
 
 
 
-
-        a {
-            text-decoration: none;
-            color: greenyellow;
-
-        }
 
 
 
     }
-
 
 
 
@@ -1260,7 +1253,7 @@
 
 
 
-           
+
 
 
     .box__imagenblack {
@@ -1459,10 +1452,10 @@
         .box__iconssocialredinside {
 
             display: flex;
-             gap: 70px;
+            gap: 70px;
             margin-right: 230px;
             margin-bottom: 5px;
-           
+
 
 
 
@@ -1563,33 +1556,24 @@
 
 @media (max-width:500px) {
 
-    .box__headercuota {
-        display: flex;
-        width: 100%;
-        height: 13px;
-        background-color: white;
-        margin-top: 20px;
-        justify-content: center;
-        gap: 15px;
-        border: none;
-        opacity: 90%;
+
+
+    .box__slide-cuotas-hotsale-bancos {
+
+        background-color: rgba(0, 0, 0, 0.753);
+        color: white;
+        height: 22px;
+        margin-top: 10px;
+        border-radius: 10px;
+        text-align: center;
         position: sticky;
-        top: 10px;
-        font-size: 9px;
+        top: 100px;
+        font-size: 12px;
 
 
 
 
 
-
-
-
-        .cuota {
-
-            color: rgb(36, 66, 6);
-
-
-        }
 
     }
 
@@ -2003,7 +1987,7 @@
             flex-direction: column;
             margin: 0 auto;
             font-size: 15px;
-            
+
 
 
 
