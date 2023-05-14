@@ -1135,13 +1135,17 @@
     .box__header {
         display: flex;
         max-width: 100%;
-
+        width: 500px;
+        height: 200px;
+        background-color: rgba(0, 0, 0, 0.247);
+        
 
 
 
         .box__img1 {
 
-
+            
+            
             width: 250px;
             margin-left: 130px;
 
