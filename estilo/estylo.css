@@ -113,6 +113,15 @@ body a {
   animation-name: mianimacion;
   animation-duration: 4s;
 }
+.box__titulo .box__logowsp {
+  position: fixed;
+  margin-left: 1480px;
+}
+.box__titulo .box__logowsp .imgwsp {
+  width: 70px;
+  border-radius: 70%;
+  opacity: 70%;
+}
 
 .titulares {
   margin-bottom: 200px;
