@@ -1113,13 +1113,14 @@
     .box__slide-cuotas-hotsale-bancos {
 
         background-color: rgba(0, 0, 0, 0.753);
+        width: 100%;
         color: white;
         height: 25px;
         margin-top: 10px;
         border-radius: 10px;
         text-align: center;
-        position: sticky;
-        top: 100px;
+        position: fixed;
+        
 
 
 
@@ -1561,13 +1562,14 @@
     .box__slide-cuotas-hotsale-bancos {
 
         background-color: rgba(0, 0, 0, 0.753);
+        width: 100%;
         color: white;
         height: 22px;
         margin-top: 10px;
         border-radius: 10px;
         text-align: center;
-        position: sticky;
-        top: 100px;
+        position:fixed;
+        
         font-size: 12px;
 
 
