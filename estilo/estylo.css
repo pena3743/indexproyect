@@ -18,14 +18,14 @@ body a {
 }
 
 .box__slide-cuotas-hotsale-bancos {
-  background-color: rgba(0, 0, 0, 0.753);
+  background-color: rgba(0, 0, 0, 0.568);
   width: 100%;
   color: white;
   height: 25px;
   margin-top: 10px;
-  border-radius: 10px;
   text-align: center;
   position: fixed;
+  top: 10px;
   font-family: "Prompt", sans-serif;
 }
 
@@ -36,6 +36,7 @@ body a {
   margin-right: 100px;
   transition: 2s;
   animation-name: colorr;
+  margin-top: 50px;
 }
 .box__header .box__img1 {
   width: 500px;
@@ -66,6 +67,7 @@ body a {
   color: black;
   padding: 3px;
   border-radius: 15px;
+  animation-name: hotsale;
 }
 
 /* ----------------------------------------------
@@ -230,7 +232,6 @@ body a {
   margin-bottom: 20px;
   margin-right: 30px;
   border-bottom: 1px solid black;
-  border-radius: 10px;
   padding: 20px;
   margin: 0 auto;
 }
@@ -869,7 +870,6 @@ body a {
     color: white;
     height: 25px;
     margin-top: 10px;
-    border-radius: 10px;
     text-align: center;
     position: fixed;
   }
@@ -1072,12 +1072,11 @@ body a {
 }
 @media (max-width: 500px) {
   .box__slide-cuotas-hotsale-bancos {
-    background-color: rgba(0, 0, 0, 0.753);
+    background-color: rgba(255, 255, 255, 0.829);
     width: 100%;
-    color: white;
+    color: black;
     height: 19px;
     margin-top: 10px;
-    border-radius: 10px;
     text-align: center;
     position: fixed;
     font-size: 12px;
