@@ -18,11 +18,12 @@ body a {
 }
 
 .box__slide-cuotas-hotsale-bancos {
-  background-color: rgba(0, 0, 0, 0.568);
+  background-color: black;
   width: 100%;
   color: white;
-  height: 25px;
+  height: 30px;
   margin-top: 10px;
+  border-radius: 10px;
   text-align: center;
   position: fixed;
   top: 10px;
@@ -115,12 +116,12 @@ body a {
 }
 .box__titulo .box__logowsp {
   position: fixed;
+  margin: 50px;
   margin-left: 1480px;
 }
 .box__titulo .box__logowsp .imgwsp {
-  width: 70px;
+  width: 60px;
   border-radius: 70%;
-  opacity: 70%;
 }
 
 .titulares {
@@ -1295,5 +1296,18 @@ body a {
     width: 350px;
     margin-bottom: 10px;
     margin-top: 20px;
+  }
+  .box__contacto {
+    display: block;
+    width: 65%;
+    text-align: justify;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 1rem;
+    font-family: "Prompt", sans-serif;
+  }
+  .box__contacto .box__colorcontact {
+    color: rgb(102, 247, 73);
   }
 }/*# sourceMappingURL=estylo.css.map */

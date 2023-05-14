@@ -1117,10 +1117,10 @@
         color: white;
         height: 25px;
         margin-top: 10px;
-        
+
         text-align: center;
         position: fixed;
-        
+
 
 
 
@@ -1565,17 +1565,17 @@
 
 
 
-        background-color:rgba(0, 0, 0, 0.753);
+        background-color: rgba(0, 0, 0, 0.753);
         width: 100%;
         color: white;
         height: 19px;
         margin-top: 10px;
         text-align: center;
-        position:fixed;
+        position: fixed;
         font-size: 12px;
-        
-        
-        
+
+
+
 
 
 
@@ -1592,7 +1592,7 @@
         max-width: 100%;
         margin-right: 80px;
         margin-bottom: -50px;
-        
+
 
         .box__img1 {
 
@@ -1645,7 +1645,13 @@
 
 
 
+       
+
+
+
+       
     }
+
 
 
 
@@ -2015,5 +2021,40 @@
 
         }
     }
+
+
+
+
+    // pagina 5 (coontacto )
+
+
+
+    .box__contacto {
+        display: block;
+        width: 65%;
+        text-align: justify;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        color: white;
+        font-size: 1rem;
+        font-family: 'Prompt', sans-serif;
+    
+    
+        .box__colorcontact {
+    
+            color: $colordecoracion;
+    
+    
+        }
+    
+    
+    }
+    
+
+
+
+
+
+
 
 }
