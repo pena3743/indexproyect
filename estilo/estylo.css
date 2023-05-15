@@ -16,16 +16,9 @@ body {
 body a {
   text-decoration: none;
 }
-body .body2 {
-  background-image: url(/img/background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-}
 
 .box__slide-cuotas-hotsale-bancos {
-  background-color: rgba(0, 0, 0, 0.568);
+  background-color: rgba(0, 0, 0, 0.815);
   width: 100%;
   color: white;
   height: 25px;
@@ -34,20 +27,19 @@ body .body2 {
   position: fixed;
   top: 10px;
   font-family: "Prompt", sans-serif;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.623);
 }
 
 .box__header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-right: 100px;
+  margin-right: 250px;
   transition: 2s;
   animation-name: colorr;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 .box__header .box__img1 {
-  width: 500px;
+  width: 550px;
   animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 .box__header .box__navbar {
@@ -69,19 +61,6 @@ body .body2 {
 .box__header .box__links a:hover {
   transition: 1.5s;
   color: rgb(102, 247, 73);
-}
-.box__header .box__links .hotsale {
-  background-color: rgba(255, 255, 255, 0.466);
-  color: white;
-  padding: 3px;
-  border-radius: 15px;
-  border: 1px solid white;
-  animation-name: hotsale;
-}
-.box__header .box__links .hotsale:hover {
-  transition: 2s;
-  transform: scale(1.1);
-  color: rgb(255, 251, 0);
 }
 
 /* ----------------------------------------------
@@ -119,17 +98,17 @@ body .body2 {
 .box__titulo {
   color: white;
   margin-top: 100px;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 .box__titulo .aw2 {
   color: greenyellow;
-  font-size: 5rem;
+  font-size: 6rem;
   animation-name: mianimacion;
   animation-duration: 4s;
 }
 .box__titulo .box__logowsp {
   position: fixed;
-  margin: 50px;
+  margin: 10px;
   margin-left: 1480px;
 }
 .box__titulo .box__logowsp .imgwsp {
@@ -305,6 +284,19 @@ body .body2 {
   width: 100%;
   color: white;
   justify-content: center;
+}
+
+.box__nosotros {
+  display: block;
+  width: 1200px;
+  height: 500px;
+  color: white;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+.box__nosotros .box__nosotros-titulo-input {
+  font-family: "Prompt", sans-serif;
+  color: white;
 }
 
 .box__footer {
@@ -518,6 +510,14 @@ body .body2 {
     margin-bottom: 10px;
     margin-top: 20px;
   }
+  .box__nosotros {
+    width: 900px;
+    height: 1200px;
+    margin-top: 50px;
+  }
+  .input-nosotros {
+    width: 800px;
+  }
 }
 @media (max-width: 1000px) {
   .box__headercuota {
@@ -540,6 +540,7 @@ body .body2 {
   .box__header {
     display: flex;
     max-width: 100%;
+    margin-left: 30px;
   }
   .box__header .box__img1 {
     width: 350px;
@@ -603,7 +604,7 @@ body .body2 {
     margin-bottom: 50px;
   }
   .box__imagenblack .box__imgnegro {
-    width: 990px;
+    width: 950px;
   }
   .box__imagenblack .box__imgnegro .box__videomark {
     width: 100%;
@@ -669,6 +670,14 @@ body .body2 {
     width: 400px;
     margin-bottom: 10px;
     margin-top: 20px;
+  }
+  .box__nosotros {
+    width: 800px;
+    height: 1200px;
+    margin-top: 50px;
+  }
+  .input-nosotros {
+    width: 700px;
   }
 }
 @media (max-width: 850px) {
@@ -885,6 +894,14 @@ body .body2 {
     margin-bottom: 10px;
     margin-top: 20px;
   }
+  .box__nosotros {
+    width: 600px;
+    height: 1200px;
+    margin-top: 50px;
+  }
+  .input-nosotros {
+    width: 550px;
+  }
 }
 @media (max-width: 700px) {
   .box__slide-cuotas-hotsale-bancos {
@@ -902,10 +919,11 @@ body .body2 {
     width: 500px;
     height: 200px;
     background-color: rgba(0, 0, 0, 0.247);
+    border-radius: 10px;
   }
   .box__header .box__img1 {
     width: 250px;
-    margin-left: 130px;
+    margin-left: 170px;
   }
   .box__header .box__links {
     display: flex;
@@ -1094,6 +1112,14 @@ body .body2 {
     width: 500px;
     margin-bottom: 10px;
     margin-top: 20px;
+  }
+  .box__nosotros {
+    width: 400px;
+    height: 1200px;
+    margin-top: 50px;
+  }
+  .input-nosotros {
+    width: 400px;
   }
 }
 @media (max-width: 500px) {
@@ -1324,5 +1350,13 @@ body .body2 {
   }
   .box__contacto .box__colorcontact {
     color: rgb(102, 247, 73);
+  }
+  .box__nosotros {
+    width: 400px;
+    height: 1200px;
+    margin-top: 50px;
+  }
+  .input-nosotros {
+    width: 400px;
   }
 }/*# sourceMappingURL=estylo.css.map */

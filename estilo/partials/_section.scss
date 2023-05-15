@@ -1,7 +1,7 @@
 .box__titulo {
     color: white;
     margin-top: 100px;
-    margin-left: 10px;
+    margin-left: 5px;
     
 
 
@@ -12,7 +12,7 @@
     .aw2 {
 
         color: greenyellow;
-        font-size: 5rem;
+        font-size: 6rem;
         animation-name: mianimacion;
         animation-duration: 4s;
         
@@ -25,7 +25,7 @@
     .box__logowsp{
         
         position: fixed;
-        margin: 50px;
+        margin: 10px;
         margin-left: 1480px;
 
         .imgwsp{
@@ -415,4 +415,24 @@
 
 
   
-  
+  // pagina 4 ( nosotros )
+
+
+  .box__nosotros{
+    display: block;
+    width: 1200px;
+    height: 500px;
+    color: white;
+    margin: 0 auto;
+    font-size:1.2rem;
+    
+    .box__nosotros-titulo-input{
+
+        font-family: 'Prompt', sans-serif;
+        color: white;
+
+
+    }
+    
+
+  }
