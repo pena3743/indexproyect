@@ -110,6 +110,9 @@ body a {
   position: fixed;
   margin: 10px;
   margin-left: 1480px;
+  border: 2px solid greenyellow;
+  border-radius: 70%;
+  box-shadow: 0 0 10px white;
 }
 .box__titulo .box__logowsp .imgwsp {
   width: 60px;
@@ -1137,11 +1140,13 @@ body a {
   .box__header {
     display: flex;
     max-width: 100%;
-    width: 400px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
   }
   .box__header .box__img1 {
     width: 200px;
-    margin-left: 10px;
+    margin-left: 50px;
   }
   .box__header .box__links {
     display: flex;
