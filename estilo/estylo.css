@@ -16,6 +16,13 @@ body {
 body a {
   text-decoration: none;
 }
+body .body2 {
+  background-image: url(/img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
 
 .box__slide-cuotas-hotsale-bancos {
   background-color: rgba(0, 0, 0, 0.568);
@@ -1103,8 +1110,7 @@ body a {
   .box__header {
     display: flex;
     max-width: 100%;
-    margin-right: 80px;
-    margin-bottom: -50px;
+    width: 410px;
   }
   .box__header .box__img1 {
     width: 270px;
