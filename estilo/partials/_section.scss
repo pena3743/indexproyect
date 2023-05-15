@@ -289,9 +289,9 @@
 .box__grid1 {
     display: grid;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.87);
+    // background-color: rgba(255, 255, 255, 0.87);
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    gap: 50px;
     padding: 25px;
     margin-bottom: 200px;
    
@@ -312,7 +312,8 @@
         font-size: 25px;
         margin-bottom: 20px;
         margin-right: 30px;
-        border-bottom: 1px solid black ;
+        border-radius: 3px;
+        
          padding: 20px;
         margin: 0 auto;
        
