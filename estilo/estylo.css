@@ -222,7 +222,6 @@ body a {
 .box__grid1 {
   display: grid;
   width: 100%;
-  background-image: url(/img/photo-1485518882345-15568b007407.avif);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -231,7 +230,6 @@ body a {
   gap: 50px;
   padding: 25px;
   margin-bottom: 300px;
-  box-shadow: 0 0 60px black;
 }
 .box__grid1 .box__grid {
   max-width: 100%;
