@@ -222,10 +222,16 @@ body a {
 .box__grid1 {
   display: grid;
   width: 100%;
+  background-image: url(/img/photo-1485518882345-15568b007407.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
   padding: 25px;
-  margin-bottom: 200px;
+  margin-bottom: 300px;
+  box-shadow: 0 0 60px black;
 }
 .box__grid1 .box__grid {
   max-width: 100%;
@@ -295,7 +301,7 @@ body a {
   color: white;
   margin: 0 auto;
   margin-bottom: 200px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 .box__nosotros .box__nosotros-titulo-input {
   font-family: "Prompt", sans-serif;
@@ -1357,7 +1363,7 @@ body a {
   }
   .box__nosotros {
     width: 400px;
-    height: 1200px;
+    height: 1300px;
     margin-top: 50px;
   }
   .input-nosotros {
