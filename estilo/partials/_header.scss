@@ -90,6 +90,21 @@
 
 
 
+        @for $pixel from 1 through 4 {
+
+            .links#{$pixel} a {
+
+                 width: 1.5rem * 1;
+
+
+
+            }
+
+
+
+        }
+
+
         a {
 
             text-decoration: none;

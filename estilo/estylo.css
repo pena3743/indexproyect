@@ -54,6 +54,18 @@ body a {
   font-size: 1.5rem;
   font-family: "Prompt", sans-serif;
 }
+.box__header .box__links .links1 a {
+  width: 1.5rem;
+}
+.box__header .box__links .links2 a {
+  width: 1.5rem;
+}
+.box__header .box__links .links3 a {
+  width: 1.5rem;
+}
+.box__header .box__links .links4 a {
+  width: 1.5rem;
+}
 .box__header .box__links a {
   text-decoration: none;
   color: white;
@@ -222,6 +234,7 @@ body a {
 .box__grid1 {
   display: grid;
   width: 100%;
+  background-image: url(../img/photo-1485518882345-15568b007407.avif);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -230,6 +243,7 @@ body a {
   gap: 50px;
   padding: 25px;
   margin-bottom: 300px;
+  box-shadow: 0 0 80px black;
 }
 .box__grid1 .box__grid {
   max-width: 100%;
@@ -252,13 +266,15 @@ body a {
 .box__grid1 .box__grid .ultimasunidades {
   color: rgba(231, 11, 11, 0.719);
 }
-.box__grid1 .img__grid {
+
+.img__grid {
   width: 550px;
   margin-bottom: 20px;
   transition: 3s;
   border-radius: 5px;
 }
-.box__grid1 .img__grid:hover {
+
+.img__grid:hover {
   transition: 0.5s;
   transform: scale(1.1);
 }
