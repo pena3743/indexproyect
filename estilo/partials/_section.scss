@@ -12,6 +12,7 @@
     .aw2 {
 
         color: greenyellow;
+
         font-size: 6rem;
         animation-name: mianimacion;
         animation-duration: 4s;
@@ -311,14 +312,16 @@
     .box__grid {
         max-width: 100%;
         display: block;
-        background-color: white;
+        // background-color: rgba(255, 255, 255, 0.884);
         line-height: 50px;
         font-size: 25px;
         margin-bottom: 20px;
         margin-right: 30px;
-        border-radius: 3px;
-        padding: 20px;
+         padding: 20px;
         margin: 0 auto;
+       
+        
+        
 
 
 
@@ -326,7 +329,12 @@
 
 
 
+        .box__descripstock {
 
+            background-color: rgba(255, 255, 255, 0.938);
+            padding: 20px;
+            border: 3px solid rgb(157, 236, 29);
+        }
 
         .stockcolor {
             color: $colordecoracion;
@@ -346,7 +354,7 @@
 
 
 
-            
+
 
 
             color: rgba(231, 11, 11, 0.719);
