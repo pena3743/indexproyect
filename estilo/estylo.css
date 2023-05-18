@@ -400,7 +400,7 @@ body a {
   padding: 10px;
 }
 
-@media (max-width: 1700px) {
+@media (max-width: 1300px) {
   .box__header {
     display: flex;
     max-width: 100%;
