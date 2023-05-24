@@ -803,7 +803,7 @@
             font-size: 0.7rem;
             gap: 40px;
             margin-right: 100px;
-            list-style-type: decimal-leading-zero;
+            list-style-type: none;
 
 
 
@@ -1313,10 +1313,10 @@
          max-width: 100%;
         width: 500px;
         height: 140px;
-        background-color: rgba(0, 0, 0, 0.247);
+        background-color: rgba(0, 0, 0, 0.507);
         margin-top: 70px;
         margin-left: 50px;
-
+        box-shadow: 0 0 100px black;
 
         .box__img1 {
 
@@ -1894,7 +1894,7 @@
         background-color: white;
         margin-top: 150px;
 
-        box-shadow: 0 0 10px black;
+        
 
         .box__img2 {
             display: flex;
@@ -1931,11 +1931,11 @@
     .box__imagenblack {
         display: block;
         max-width: 100%;
-
         padding: 2px;
         margin: 0 auto;
         background-color: white;
         margin-bottom: 50px;
+        
 
         .box__imgnegro {
             width: 428px;

@@ -743,7 +743,7 @@ body .body2 {
     font-size: 0.7rem;
     gap: 40px;
     margin-right: 100px;
-    list-style-type: decimal-leading-zero;
+    list-style-type: none;
   }
   .box__titulo {
     display: flex;
@@ -949,9 +949,10 @@ body .body2 {
     max-width: 100%;
     width: 500px;
     height: 140px;
-    background-color: rgba(0, 0, 0, 0.247);
+    background-color: rgba(0, 0, 0, 0.507);
     margin-top: 70px;
     margin-left: 50px;
+    box-shadow: 0 0 100px black;
   }
   .box__header .box__img1 {
     width: 250px;
@@ -1215,7 +1216,6 @@ body .body2 {
     max-height: 1600px;
     background-color: white;
     margin-top: 150px;
-    box-shadow: 0 0 10px black;
   }
   .box__section1 .box__img2 {
     display: flex;
