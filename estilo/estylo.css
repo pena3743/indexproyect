@@ -1420,4 +1420,246 @@ body .body2 {
   .input-nosotros {
     width: 400px;
   }
+}
+@media (max-width: 390px) {
+  .box__slide-cuotas-hotsale-bancos {
+    background-color: black;
+    width: 100%;
+    color: white;
+    height: 18px;
+    margin-top: 5px;
+    text-align: center;
+    position: fixed;
+    font-size: 10px;
+  }
+  .box__header {
+    display: flex;
+    max-width: 100%;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 70px;
+  }
+  .box__header .box__img1 {
+    width: 220px;
+    margin-left: 5px;
+  }
+  .box__header .box__links {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+    gap: 2px;
+    margin-right: 20px;
+    list-style-type: none;
+  }
+  .box__titulo {
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    margin-left: 50px;
+    bottom: 50px;
+  }
+  .box__titulo .aw2 {
+    font-size: 2.8rem;
+    margin: 0 auto;
+  }
+  .box__section1 {
+    display: flex;
+    max-width: 100%;
+    max-height: 1600px;
+    background-color: white;
+    margin-top: 150px;
+  }
+  .box__section1 .box__img2 {
+    display: flex;
+    margin-top: 200px;
+    padding: 20px;
+    margin: 0 auto;
+    gap: 10px;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .box__section1 .box__img2 .img33 {
+    width: 300px;
+    margin-bottom: 20px;
+    border: none;
+  }
+  .box__section1 .box__img2 .img33:hover {
+    transition: none;
+    transform: none;
+  }
+  .box__imagenblack {
+    display: block;
+    max-width: 100%;
+    padding: 2px;
+    margin: 0 auto;
+    background-color: white;
+    margin-bottom: 50px;
+  }
+  .box__imagenblack .box__imgnegro {
+    width: 381px;
+  }
+  .box__imagenblack .box__imgnegro .box__videomark {
+    width: 100%;
+  }
+  .box__imagenblack .box__undervideo {
+    max-width: 100%;
+    height: 290px;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .box__imagenblack .box__undervideo .box__underimg {
+    margin: 0 auto;
+    width: 380px;
+    height: 290px;
+  }
+  .box__imagenblack .imgunder1 {
+    display: none;
+  }
+  .box__imagenblack .imgunder1 .imgunder {
+    width: 420px;
+    height: 190px;
+    margin: 0 auto;
+  }
+  .box__parrafo {
+    display: flex;
+    max-width: 100%;
+    height: 900px;
+    padding: 30px;
+  }
+  .box__parrafo .box__section3 {
+    flex-direction: column;
+    width: 390px;
+  }
+  .box__parrafo .input3 {
+    text-align: start;
+    width: 400px;
+    flex-direction: row;
+  }
+  .box__footer {
+    max-width: 100%;
+    width: 600px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    padding: 30px;
+  }
+  .box__footer .img__footer {
+    width: 110px;
+    height: 60px;
+  }
+  .box__footer .box__linkfoot {
+    display: block;
+    font-size: 7px;
+    align-items: center;
+    list-style-type: none;
+    line-height: 20px;
+  }
+  .box__footer .box__linkfoot2 {
+    display: block;
+    list-style-type: none;
+    line-height: 35px;
+    font-size: 7px;
+    margin-right: 40px;
+    line-height: 15px;
+  }
+  .box__footer a {
+    text-decoration: none;
+    color: black;
+  }
+  .box__footer a a:hover {
+    color: greenyellow;
+  }
+  .box__footer .box__logcard2 {
+    width: 100px;
+    display: block;
+  }
+  .box__footer .box__logcard2 .box__creditimg {
+    width: 50px;
+  }
+  .box__footer .box__logcard2 .logo1 {
+    width: 23px;
+  }
+  .box__footer .box__logcard2 .logo2 {
+    width: 23px;
+  }
+  .box__footer .box__logcard2 .logo3 {
+    width: 23px;
+  }
+  .box__iconssocialred {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+  }
+  .box__iconssocialred .box__iconssocialredinside {
+    display: flex;
+    align-content: center;
+    gap: 70px;
+    margin-right: 230px;
+    margin-top: 5px;
+  }
+  .box__legalfoot {
+    background-color: black;
+    color: white;
+    opacity: 70%;
+    text-align: justify;
+    font-family: "Prompt", sans-serif;
+    font-size: 0.4rem;
+  }
+  .titu2 {
+    margin-bottom: 150px;
+  }
+  .box__grid1 {
+    display: block;
+    max-width: 100%;
+    background-color: white;
+    flex-direction: column;
+    margin-bottom: 40px;
+    gap: 10px;
+  }
+  .box__grid1 .box__grid {
+    max-width: 100%;
+    display: block;
+    background-color: white;
+    line-height: 25px;
+    flex-direction: column;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+  .box__grid1 .img__grid {
+    width: 293px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  .box__contacto {
+    display: block;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    color: white;
+    font-size: 1rem;
+    font-family: "Prompt", sans-serif;
+  }
+  .box__contacto .box__colorcontact {
+    color: rgb(102, 247, 73);
+  }
+  .box__nosotros {
+    width: 350px;
+    height: 1600px;
+    margin-top: 50px;
+    font-size: 1.4rem;
+  }
+  .input-nosotros {
+    width: 330px;
+  }
 }/*# sourceMappingURL=estylo.css.map */
