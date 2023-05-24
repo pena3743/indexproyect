@@ -16,12 +16,9 @@
         font-size: 6rem;
         animation-name: mianimacion;
         animation-duration: 4s;
-
-
-
+        
 
     }
-
 
     .box__logowsp {
 
@@ -53,26 +50,7 @@
 
 }
 
-.box__tituloliquidacion {
-    display: flex;
-    background-color: white;
-    justify-content: center;
-    margin-bottom: 5px;
-    font-family: 'Prompt', sans-serif;
-    opacity: 90%;
 
-
-
-
-    .cupon40 {
-
-        color: $colordecoracion ;
-
-
-    }
-
-
-}
 
 
 .box__section1 {
@@ -128,7 +106,7 @@
         display: block;
         text-align: center;
         line-height: 50px;
-    
+
 
         .aw3 {
 
@@ -276,7 +254,7 @@
 
 
 
-.slidehotsale{
+.slidehotsale {
 
     background-color: rgba(255, 255, 255, 0.801);
     color: black;
@@ -287,9 +265,9 @@
 
 
 
-.awpage2{
+.awpage2 {
 
-color: white;
+    color: white;
 
 }
 
@@ -308,19 +286,19 @@ color: white;
 
 
 
-.box__grid1  {
+.box__grid1 {
     display: grid;
     width: 100%;
-   background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
     gap: 50px;
     padding: 25px;
     margin-bottom: 300px;
-    
-    
+
+
 
 
 
@@ -331,7 +309,7 @@ color: white;
 
 
     .box__grid {
-         max-width: 100%;
+        max-width: 100%;
         display: block;
         // background-color: rgba(255, 255, 255, 0.884);
         line-height: 50px;
@@ -403,8 +381,8 @@ color: white;
     width: 550px;
     margin-bottom: 20px;
     transition: 3s;
-    
-   
+
+
 }
 
 
@@ -486,17 +464,17 @@ color: white;
     margin: 0 auto;
     margin-bottom: 350px;
     font-size: 1.5rem;
-    font-family: 'Montserrat Alternates', sans-serif;
-    
+     font-family: 'Montserrat Alternates', sans-serif;
+
     .box__nosotros-titulo-input {
 
-        font-family: 'Prompt', sans-serif;
+         font-family: 'Prompt', sans-serif;
         color: white;
-        
+
 
     }
 
-    .firma-fundador{
+    .firma-fundador {
 
         width: 250px;
 
@@ -504,10 +482,17 @@ color: white;
 
     }
 
-    .cofunder{
-
+    .cofunder {
+        background-color: rgba(0, 0, 0, 0.466);
+        color: white;
         font-family: 'Montserrat Alternates', sans-serif;
-        font-size: 1rem;
+        text-align: center;
+        width: 250px;
+        padding: 7px;
+         font-size: 1rem;
+        border: 1px solid white;
+        border-radius: 10px;
+       
 
     }
 
