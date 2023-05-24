@@ -481,18 +481,33 @@ color: white;
 .box__nosotros {
     display: block;
     width: 1200px;
-    height: 500px;
+    height: 550px;
     color: white;
     margin: 0 auto;
-    margin-bottom: 200px;
+    margin-bottom: 350px;
     font-size: 1.5rem;
+    font-family: 'Montserrat Alternates', sans-serif;
     
-
     .box__nosotros-titulo-input {
 
         font-family: 'Prompt', sans-serif;
         color: white;
         
+
+    }
+
+    .firma-fundador{
+
+        width: 250px;
+
+
+
+    }
+
+    .cofunder{
+
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-size: 1rem;
 
     }
 
