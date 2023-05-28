@@ -382,14 +382,16 @@ body .body2 {
 .box__footer .box__linkfoot .button-retourn {
   border-radius: 15px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.493);
   color: white;
   padding-left: 5px;
   padding-right: 5px;
   text-decoration: none;
+  border: 1px solid black;
+  transition: 4s;
 }
 .box__footer .box__linkfoot .button-retourn a:hover {
-  color: white;
+  transition: 1s;
+  color: greenyellow;
 }
 .box__footer .box__linkfoot2 {
   display: block;
