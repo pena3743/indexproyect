@@ -23,18 +23,30 @@
 
 
 
-.box__icon-favorite-briefcase {
+
+
+.box__icon-search-underslide {
 
     display: flex;
-    align-items: first baseline;
-    gap: 20px;
-    
+    justify-content: space-between;
     color: white;
+    margin-right: 50px;
+    margin-left: 50px;
 
-    justify-content:end;
-    padding-right: 50px;
-    
-  
+
+
+
+
+    .box__icon-favorite-briefcase {
+
+        display: flex;
+        align-items: first baseline;
+        gap: 20px;
+
+
+
+
+    }
 
 }
 
@@ -45,15 +57,29 @@
 
 
 
+
+
+
+
+
+
 .box__header {
 
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+
+    @include cabeza(flex, center, space-around);
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-around;
     margin-right: 250px;
     transition: 2s;
     animation-name: colorr;
     margin-top: 10px;
+
+
+
+
+
+
 
 
 
@@ -99,7 +125,7 @@
         list-style-type: none;
         font-size: 1.7rem;
         font-family: 'Montserrat Alternates', sans-serif;
-        
+
 
 
 
@@ -132,7 +158,7 @@
 
     }
 
-  
+
 
 }
 

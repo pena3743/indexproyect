@@ -1,4 +1,14 @@
 
+@mixin cabeza ($direction , $colum , $align ){
 
 
-$colordecoracion: rgb(128, 247, 73) ;
+    display:  $direction;
+    align-items: $colum;
+    justify-content: $align;
+
+
+
+}
+
+$colordecoracion: rgb(173, 255, 47) ;
+$textorelaway: 'Raleway', sans-serif;
