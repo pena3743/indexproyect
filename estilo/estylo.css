@@ -386,6 +386,10 @@ body .body2 {
   color: white;
   padding-left: 5px;
   padding-right: 5px;
+  text-decoration: none;
+}
+.box__footer .box__linkfoot .button-retourn a:hover {
+  color: white;
 }
 .box__footer .box__linkfoot2 {
   display: block;
