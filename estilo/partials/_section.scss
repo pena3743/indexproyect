@@ -2,7 +2,7 @@
     color: white;
     margin-top: 100px;
     margin-left: 5px;
-
+    
 
 
 
@@ -490,7 +490,7 @@
     }
 
     .cofunder {
-        background-color: rgba(0, 0, 0, 0.466);
+
         color: white;
         font-family: 'Montserrat Alternates', sans-serif;
         text-align: center;
@@ -505,3 +505,47 @@
 
 
 }
+
+
+
+.box__cononcenos-map-descrip {
+
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+    color: white;
+    flex-direction: column;
+    font-size: 2rem;
+    
+
+
+
+
+    .box__map-conocenos{
+
+        width: 1200px;
+        border-radius: 10px;
+        box-shadow: 0 0 80px black;
+
+
+    }
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+}
+

@@ -40,6 +40,15 @@ body .body2 {
   z-index: 9999;
 }
 
+.box__icon-favorite-briefcase {
+  display: flex;
+  align-items: first baseline;
+  gap: 20px;
+  color: white;
+  justify-content: end;
+  padding-right: 50px;
+}
+
 .box__header {
   display: flex;
   align-items: center;
@@ -71,7 +80,7 @@ body .body2 {
 }
 .box__header .box__links a:hover {
   transition: 1.5s;
-  color: rgb(102, 247, 73);
+  color: rgb(128, 247, 73);
 }
 
 /* ----------------------------------------------
@@ -256,7 +265,7 @@ body .body2 {
   border: 3px solid rgb(157, 236, 29);
 }
 .box__grid1 .box__grid .stockcolor {
-  color: rgb(102, 247, 73);
+  color: rgb(128, 247, 73);
 }
 .box__grid1 .box__grid .button__interes {
   color: grey;
@@ -287,7 +296,7 @@ body .body2 {
   font-family: "Prompt", sans-serif;
 }
 .box__contacto .box__colorcontact {
-  color: rgb(102, 247, 73);
+  color: rgb(128, 247, 73);
 }
 
 .inputcontacto {
@@ -323,7 +332,6 @@ body .body2 {
   width: 250px;
 }
 .box__nosotros .cofunder {
-  background-color: rgba(0, 0, 0, 0.466);
   color: white;
   font-family: "Montserrat Alternates", sans-serif;
   text-align: center;
@@ -332,6 +340,22 @@ body .body2 {
   font-size: 1rem;
   border: 1px solid white;
   border-radius: 10px;
+}
+
+.box__cononcenos-map-descrip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 100px;
+  color: white;
+  flex-direction: column;
+  font-size: 2rem;
+}
+.box__cononcenos-map-descrip .box__map-conocenos {
+  width: 1200px;
+  border-radius: 10px;
+  box-shadow: 0 0 80px black;
 }
 
 .box__footer {
@@ -353,7 +377,15 @@ body .body2 {
   gap: 20px;
   align-items: center;
   list-style-type: none;
-  line-height: 50px;
+  line-height: 35px;
+}
+.box__footer .box__linkfoot .button-retourn {
+  border-radius: 15px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.493);
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .box__footer .box__linkfoot2 {
   display: block;
@@ -382,31 +414,33 @@ body .body2 {
   width: 50px;
 }
 
-.box__iconssocialred {
-  width: 100%;
-  height: 50px;
+.box__iconssocialredinside {
   display: flex;
-  background-color: white;
-  justify-content: flex-start;
   align-items: center;
-  border-top: 1px solid black;
+  flex-direction: column;
+  gap: 30px;
 }
-.box__iconssocialred .box__iconssocialredinside {
-  display: flex;
-  align-content: center;
-  gap: 50px;
-  margin-left: 230px;
-  margin-bottom: 10px;
+
+.incosmedia {
+  display: none;
 }
 
 .box__legalfoot {
-  background-color: black;
-  color: white;
-  opacity: 70%;
+  background-color: rgb(255, 255, 255);
+  color: black;
   text-align: justify;
   font-family: "Prompt", sans-serif;
   font-size: 0.8rem;
-  padding: 10px;
+  padding: 20px;
+}
+.box__legalfoot .box__legalfoot-parrafo {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.493);
+  padding: 15px;
+}
+.box__legalfoot .poilicity-legalfoot {
+  display: flex;
+  justify-content: end;
+  margin-right: 15px;
 }
 
 @media (max-width: 1300px) {
@@ -838,15 +872,15 @@ body .body2 {
     padding: 50px;
   }
   .box__footer .img__footer {
-    width: 100px;
-    height: 50px;
+    width: 150px;
+    height: 75px;
   }
   .box__footer .box__linkfoot {
     display: block;
     font-size: 10px;
     align-items: center;
     list-style-type: none;
-    line-height: 30px;
+    line-height: 20px;
   }
   .box__footer .box__linkfoot2 {
     display: block;
@@ -891,14 +925,13 @@ body .body2 {
   .box__iconssocialred .box__iconssocialredinside {
     display: flex;
     align-content: center;
-    gap: 70px;
+    gap: 40px;
     margin-right: 230px;
     margin-bottom: 5px;
   }
   .box__legalfoot {
-    background-color: black;
-    color: white;
-    opacity: 70%;
+    background-color: white;
+    color: black;
     text-align: justify;
     font-family: "Prompt", sans-serif;
     font-size: 0.7rem;
@@ -1062,15 +1095,15 @@ body .body2 {
     color: black;
   }
   .box__footer .img__footer {
-    width: 100px;
-    height: 50px;
+    width: 140px;
+    height: 70px;
   }
   .box__footer .box__linkfoot {
     display: block;
     font-size: 10px;
     align-items: center;
     list-style-type: none;
-    line-height: 30px;
+    line-height: 20px;
   }
   .box__footer .box__linkfoot2 {
     display: block;
@@ -1104,24 +1137,20 @@ body .body2 {
   .box__footer .box__logcard2 .logo3 {
     width: 30px;
   }
-  .box__iconssocialred {
-    width: 100%;
-    height: 45px;
-    display: flex;
-    background-color: white;
-    justify-content: center;
+  .box__iconssocialredinside {
+    display: none;
     align-items: center;
+    flex-direction: column;
+    gap: 20px;
   }
-  .box__iconssocialred .box__iconssocialredinside {
+  .incosmedia {
     display: flex;
-    gap: 70px;
-    margin-right: 230px;
-    margin-bottom: 5px;
+    flex-direction: column;
+    gap: 35px;
   }
   .box__legalfoot {
-    background-color: black;
-    color: white;
-    opacity: 70%;
+    background-color: white;
+    color: black;
     text-align: justify;
     font-family: "Prompt", sans-serif;
     font-size: 0.6rem;
@@ -1172,7 +1201,7 @@ body .body2 {
     font-family: "Prompt", sans-serif;
   }
   .box__contacto .box__colorcontact {
-    color: rgb(102, 247, 73);
+    color: rgb(128, 247, 73);
   }
 }
 @media (max-width: 500px) {
@@ -1185,6 +1214,14 @@ body .body2 {
     text-align: center;
     position: fixed;
     font-size: 12px;
+  }
+  .box__icon-favorite-briefcase {
+    display: flex;
+    align-items: first baseline;
+    gap: 10px;
+    color: white;
+    justify-content: flex-end;
+    font-size: 0.5rem;
   }
   .box__header {
     display: flex;
@@ -1294,7 +1331,7 @@ body .body2 {
   }
   .box__footer {
     max-width: 100%;
-    height: 150px;
+    height: 130px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1303,8 +1340,8 @@ body .body2 {
     padding: 30px;
   }
   .box__footer .img__footer {
-    width: 150px;
-    height: 80px;
+    width: 120px;
+    height: 65px;
   }
   .box__footer .box__linkfoot {
     display: block;
@@ -1313,13 +1350,20 @@ body .body2 {
     list-style-type: none;
     line-height: 20px;
   }
+  .box__footer .box__linkfoot .button-retourn {
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.493);
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
   .box__footer .box__linkfoot2 {
     display: block;
     list-style-type: none;
     line-height: 35px;
     font-size: 10px;
     margin-right: 40px;
-    line-height: 15px;
+    line-height: 21px;
   }
   .box__footer a {
     text-decoration: none;
@@ -1344,28 +1388,32 @@ body .body2 {
   .box__footer .box__logcard2 .logo3 {
     width: 30px;
   }
-  .box__iconssocialred {
-    width: 100%;
-    height: 35px;
-    display: flex;
-    background-color: white;
-    justify-content: center;
+  .box__iconssocialredinside {
+    display: none;
     align-items: center;
+    flex-direction: column;
+    gap: 20px;
   }
-  .box__iconssocialred .box__iconssocialredinside {
+  .incosmedia {
     display: flex;
-    align-content: center;
-    gap: 70px;
-    margin-right: 230px;
-    margin-top: 5px;
+    flex-direction: column;
+    gap: 35px;
   }
   .box__legalfoot {
-    background-color: black;
-    color: white;
-    opacity: 70%;
+    background-color: white;
+    color: black;
     text-align: justify;
     font-family: "Prompt", sans-serif;
     font-size: 0.5rem;
+  }
+  .box__legalfoot .box__legalfoot-parrafo {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.493);
+    padding: 15px;
+  }
+  .box__legalfoot .poilicity-legalfoot {
+    display: flex;
+    justify-content: end;
+    margin-right: 15px;
   }
   .titu2 {
     margin-bottom: 150px;
@@ -1404,7 +1452,7 @@ body .body2 {
     font-family: "Prompt", sans-serif;
   }
   .box__contacto .box__colorcontact {
-    color: rgb(102, 247, 73);
+    color: rgb(128, 247, 73);
   }
   .box__nosotros {
     width: 400px;
@@ -1588,7 +1636,7 @@ body .body2 {
   }
   .box__iconssocialred {
     width: 100%;
-    height: 35px;
+    height: 25px;
     display: flex;
     background-color: white;
     justify-content: center;
@@ -1602,12 +1650,11 @@ body .body2 {
     margin-top: 5px;
   }
   .box__legalfoot {
-    background-color: black;
-    color: white;
-    opacity: 70%;
+    background-color: white;
+    color: black;
     text-align: justify;
     font-family: "Prompt", sans-serif;
-    font-size: 0.4rem;
+    font-size: 0.5rem;
   }
   .titu2 {
     margin-bottom: 150px;
@@ -1646,7 +1693,7 @@ body .body2 {
     font-family: "Prompt", sans-serif;
   }
   .box__contacto .box__colorcontact {
-    color: rgb(102, 247, 73);
+    color: rgb(128, 247, 73);
   }
   .box__nosotros {
     width: 350px;

@@ -23,7 +23,20 @@
 
 
 
+.box__icon-favorite-briefcase {
 
+    display: flex;
+    align-items: first baseline;
+    gap: 20px;
+    
+    color: white;
+
+    justify-content:end;
+    padding-right: 50px;
+    
+  
+
+}
 
 
 
@@ -85,11 +98,11 @@
         gap: 50px;
         list-style-type: none;
         font-size: 1.7rem;
-         font-family: 'Montserrat Alternates', sans-serif;
+        font-family: 'Montserrat Alternates', sans-serif;
         
 
 
-       
+
 
 
         a {
@@ -119,7 +132,7 @@
 
     }
 
-
+  
 
 }
 
