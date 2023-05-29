@@ -1,8 +1,7 @@
+@mixin cabeza ($direction , $colum , $align ) {
 
-@mixin cabeza ($direction , $colum , $align ){
 
-
-    display:  $direction;
+    display: $direction;
     align-items: $colum;
     justify-content: $align;
 
@@ -10,5 +9,5 @@
 
 }
 
-$colordecoracion: rgb(173, 255, 47) ;
+$colordecoracion: rgb(173, 255, 47);
 $textorelaway: 'Raleway', sans-serif;
