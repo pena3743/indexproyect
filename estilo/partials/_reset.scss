@@ -9,8 +9,8 @@
 }
 
 body {
-    
-    
+
+
     background-image: url(../img/photo-1508554291109-58244036f52e.avif);
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,24 +20,35 @@ body {
     a {
 
         text-decoration: none;
-        
+
     }
 
-     .body2{
-     background-image: url(../img/background.jpg);
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-attachment: fixed;
-     background-position: center;
-    padding: .1px;
+    .body2 {
+        background-image: url(../img/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        padding: .1px;
 
 
-    // } 
+        // } 
+
+    }
+
+
+
+
+
 
 }
 
+.pag6 {
 
- }
+background-image: none;
 
+
+
+}
 
 //pagina2//
