@@ -175,63 +175,26 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-     padding: 5px;
+    padding: 5px;
     position: sticky;
     top: 0.1rem;
     z-index: 9999;
-    
-
-
-    .img__header6 {
-
-        width: 240px;
-        margin-bottom: 10px;
-        
-    }
+    list-style-type: none;
 
 
 
- 
-
-
-
-    .formpag6 {
-        width: 390px;
-        flex-basis: 2;
-        
-
-    }
-
-
-
-
-    .corrusel-6 {
-        display: block;
-        width: 100%;
-        height: 25px;
-        align-items: center;
-        background-color: rgba(0, 0, 0, 0.699);
-
-        color: white;
-        text-align: center;
-        margin-top: 20px;
-
-        box-shadow: 0 0 50px white;
-
-    }
-
-
-   .navheader6 {
+    .navheader6 {
         display: flex;
         gap: 20px;
         list-style-type: none;
-        padding: -1px;
+        align-items: end;
         flex-wrap: wrap;
-        justify-content: center;
-        
-       
-        
-       
+        justify-content: flex-start;
+
+
+
+
+
 
 
         .lipag2 {
@@ -241,7 +204,7 @@
 
         }
 
-        .a:hover {
+        a:hover {
             color: greenyellow;
             text-decoration: none;
 
@@ -250,9 +213,54 @@
 
 
 
-     
+
 
     }
+
+    .img__header6 {
+
+        width: 270px;
+        margin-bottom: 10px;
+
+    }
+
+
+
+
+
+
+
+    .formpag6 {
+        width: 390px;
+
+        flex-basis: 2;
+
+
+    }
+
+
+
+
+    .corrusel-6 {
+        display: block;
+        width: 100%;
+        align-items: center;
+        background-color: white;
+        color: black;
+        text-align: center;
+        margin-top: 15px;
+        font-size: 0.7rem;
+        font-family: 'Prompt', sans-serif;
+
+
+
+
+
+
+    }
+
+
+
 
 }
 
