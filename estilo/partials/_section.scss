@@ -552,5 +552,44 @@
 //pagina 6
 
 
+.box__gridnuevo {
 
+    display: grid;
+    // margin: 20px;
+    // max-width: 100%;
+    margin: 20px;
+    min-height: 1000px;
+    grid-auto-rows: 32rem;
+    grid-template-columns:  repeat(auto-fill, minmax(16rem, 1fr )) ;
+    border: 1px solid black; 
+    gap:10px;
+    flex-wrap: wrap;
+     
+    
+
+
+
+    .box__pagina6grid{
+        
+    
+
+
+
+    }
+
+
+
+
+
+    
+    .img__gridi-pag6{
+        width: 380px;
+        // margin-left: 25px;
+        
+
+    }
+
+
+
+}
 
