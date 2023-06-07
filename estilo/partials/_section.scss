@@ -554,42 +554,37 @@
 
 .box__gridnuevo {
 
+    gap: 20px;
     display: grid;
-    // margin: 20px;
-    // max-width: 100%;
-    margin: 20px;
-    min-height: 1000px;
-    grid-auto-rows: 32rem;
-    grid-template-columns:  repeat(auto-fill, minmax(16rem, 1fr )) ;
-    
-    gap:10px;
-    flex-wrap: wrap;
-     
-    
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+   
 
 
 
-    .box__pagina6grid{
+
+
+
+    .gridcaja {
+        display: flex;
+        border: 1px solid black;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+z-index: 9999px;
+ 
+
+        img{
+
+            width: 400px;
+
+
+        }
         
-    
-
-
-
     }
 
-
-
-
-
-    
-    .img__gridi-pag6{
-        width:180px;
-        // margin-left: 25px;
-        
-
-    }
 
 
 
 }
-

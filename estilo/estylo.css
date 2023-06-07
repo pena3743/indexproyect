@@ -96,10 +96,10 @@ body .body2 {
 .box__headerpagina6 {
   display: flex;
   background-color: white;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  padding: 0.7rem;
+  padding: 5px;
   position: sticky;
   top: 0.1rem;
   z-index: 9999;
@@ -114,6 +114,7 @@ body .body2 {
   text-decoration: none;
   font-size: 1.1rem;
   font-family: "Prompt", sans-serif;
+  margin-right: 15px;
 }
 .box__headerpagina6 .menu a:hover,
 .box__headerpagina6 a a:hover {
@@ -121,7 +122,7 @@ body .body2 {
   color: greenyellow;
 }
 .box__headerpagina6 .img__header6 {
-  width: 190px;
+  width: 160px;
   margin-bottom: 10px;
 }
 .box__headerpagina6 .formpag6 {
@@ -130,14 +131,15 @@ body .body2 {
 }
 .box__headerpagina6 .corrusel-6 {
   display: block;
-  background-color: rgba(0, 0, 0, 0.397);
   width: 100%;
+  background-color: rgba(0, 0, 0, 0.219);
   height: 18px;
   color: white;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 5px;
   font-size: 0.8rem;
   font-family: "Prompt", sans-serif;
+  border-radius: 10px;
 }
 
 /* ----------------------------------------------
@@ -416,16 +418,22 @@ body .body2 {
 }
 
 .box__gridnuevo {
+  gap: 20px;
   display: grid;
-  margin: 20px;
-  min-height: 1000px;
-  grid-auto-rows: 32rem;
-  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
-  gap: 10px;
-  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
 }
-.box__gridnuevo .img__gridi-pag6 {
-  width: 180px;
+.box__gridnuevo .gridcaja {
+  display: flex;
+  border: 1px solid black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  z-index: 9999px;
+}
+.box__gridnuevo .gridcaja img {
+  width: 400px;
 }
 
 .box__footer {

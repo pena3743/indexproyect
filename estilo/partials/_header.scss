@@ -173,10 +173,10 @@
 
     display: flex;
     background-color: white;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    padding: 0.7rem;
+    padding: 5px;
     position: sticky;
     top: 0.1rem;
     z-index: 9999;
@@ -195,7 +195,7 @@
         text-decoration: none;
         font-size: 1.1rem;
         font-family: 'Prompt', sans-serif;
-
+        margin-right: 15px;
 
         a:hover {
             transition: 2s;
@@ -209,7 +209,7 @@
 
     .img__header6 {
 
-        width: 190px;
+        width: 160px;
         margin-bottom: 10px;
 
     }
@@ -232,15 +232,17 @@
 
     .corrusel-6 {
         display: block;
-        background-color: rgba(0, 0, 0, 0.397);
         width: 100%;
+       background-color: rgba(0, 0, 0, 0.219);
         height: 18px;
         color: white;
         text-align: center;
-        margin-top: 15px;
+        margin-top: 5px;
         font-size: 0.8rem;
         font-family: 'Prompt', sans-serif;
-        // border-radius: 10px;
+        border-radius: 10px;
+       
+       
         
 
 
