@@ -132,15 +132,16 @@ body .body2 {
 .box__headerpagina6 .corrusel-6 {
   display: block;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.678);
-  height: 22px;
-  color: white;
+  background: rgb(157, 186, 150);
+  background: linear-gradient(353deg, rgba(157, 186, 150, 0.7735469188) 13%, rgba(221, 242, 183, 0.1236869748) 100%, rgba(19, 37, 9, 0.3477766106) 100%, rgba(11, 29, 2, 0.7959558824) 100%, rgb(215, 226, 210) 100%);
+  height: 25px;
   text-align: center;
   margin-top: 5px;
   padding: 5px;
   font-size: 0.8rem;
   font-family: "Prompt", sans-serif;
-  border-radius: 10px;
+  border-radius: 5px;
+  -webkit-text-stroke: 0.3px black;
 }
 
 /* ----------------------------------------------
