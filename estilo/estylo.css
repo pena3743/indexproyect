@@ -132,11 +132,12 @@ body .body2 {
 .box__headerpagina6 .corrusel-6 {
   display: block;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.219);
-  height: 18px;
+  background-color: rgba(0, 0, 0, 0.678);
+  height: 22px;
   color: white;
   text-align: center;
   margin-top: 5px;
+  padding: 5px;
   font-size: 0.8rem;
   font-family: "Prompt", sans-serif;
   border-radius: 10px;
@@ -418,22 +419,21 @@ body .body2 {
 }
 
 .box__gridnuevo {
-  gap: 20px;
+  gap: 50px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  margin-bottom: 100px;
 }
 .box__gridnuevo .gridcaja {
   display: flex;
-  border: 1px solid black;
   margin-top: 50px;
   margin-bottom: 50px;
   align-items: center;
   justify-content: center;
   padding: 10px;
-  z-index: 9999px;
 }
 .box__gridnuevo .gridcaja img {
-  width: 400px;
+  width: 350px;
 }
 
 .box__footer {

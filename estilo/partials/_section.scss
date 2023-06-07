@@ -554,10 +554,10 @@
 
 .box__gridnuevo {
 
-    gap: 20px;
+    gap: 50px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-   
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+     margin-bottom: 100px;
 
 
 
@@ -566,18 +566,19 @@
 
     .gridcaja {
         display: flex;
-        border: 1px solid black;
+        
+        
         margin-top: 50px;
         margin-bottom: 50px;
         align-items: center;
         justify-content: center;
         padding: 10px;
-z-index: 9999px;
+        
  
 
         img{
 
-            width: 400px;
+            width: 350px;
 
 
         }
