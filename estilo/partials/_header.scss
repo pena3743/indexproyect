@@ -170,12 +170,13 @@
 
 .box__headerpagina6 {
 
+
     display: flex;
     background-color: white;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    padding: 5px;
+    padding: 0.7rem;
     position: sticky;
     top: 0.1rem;
     z-index: 9999;
@@ -183,43 +184,32 @@
 
 
 
-    .navheader6 {
+
+    .menu,
+    a {
+
         display: flex;
-        gap: 20px;
+        color: black;
+        gap: 1rem;
         list-style-type: none;
-        align-items: end;
-        flex-wrap: wrap;
-        justify-content: flex-start;
+        text-decoration: none;
+        font-size: 1.1rem;
+        font-family: 'Prompt', sans-serif;
 
-
-
-
-
-
-
-        .lipag2 {
-            color: black;
-
-
-
-        }
 
         a:hover {
+            transition: 2s;
             color: greenyellow;
-            text-decoration: none;
 
 
         }
-
-
-
-
 
     }
 
+
     .img__header6 {
 
-        width: 270px;
+        width: 190px;
         margin-bottom: 10px;
 
     }
@@ -229,9 +219,8 @@
 
 
 
-
     .formpag6 {
-        width: 390px;
+        width: 290px;
 
         flex-basis: 2;
 
@@ -243,14 +232,16 @@
 
     .corrusel-6 {
         display: block;
+        background-color: rgba(0, 0, 0, 0.397);
         width: 100%;
-        align-items: center;
-        background-color: white;
-        color: black;
+        height: 18px;
+        color: white;
         text-align: center;
         margin-top: 15px;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         font-family: 'Prompt', sans-serif;
+        // border-radius: 10px;
+        
 
 
 
@@ -258,7 +249,6 @@
 
 
     }
-
 
 
 
