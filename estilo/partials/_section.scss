@@ -554,10 +554,10 @@
 
 .box__gridnuevo {
 
-    gap: 50px;
+    gap: 40px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-     margin-bottom: 100px;
+    margin-bottom: 100px;
 
 
 
@@ -565,27 +565,90 @@
 
 
     .gridcaja {
-        display: flex;
-        
-        
-        margin-top: 50px;
-        margin-bottom: 50px;
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 5px;
         align-items: center;
-        justify-content: center;
-        padding: 10px;
         
- 
+        flex-direction: column;
+        padding: 30px;
+        
 
-        img{
+
+        .img2__pag6 {
+
+            width: 357px;
+
+        }
+
+        .img3__pag6 {
+
+            width: 388px;
+
+        }
+
+
+
+        .img4__pag6 {
+
+            width: 388px;
+
+        }
+
+        .img5__pag6 {
+
+            width: 388px;
+
+
+        }
+
+        .img6__pag6 {
+
+            width: 388px;
+
+
+        }
+
+
+
+        .img7__pag6 {
 
             width: 350px;
 
 
         }
-        
+
+
+        .img8__pag6 {
+
+            width: 400px;
+
+
+        }
+
+
+        img {
+
+            width: 350px;
+
+
+        }
+
+
+
+
+
+
     }
 
+    .descrip__box {
+       
+        padding: 10px;
+        line-height: 40px;
+        font-size: 1.5rem;
 
+
+    }
 
 
 }
