@@ -29,7 +29,7 @@ body .body2 {
 }
 
 .pag6 {
-  background-image: none;
+  background-image: url(/img/photo-1485518882345-15568b007407.avif);
 }
 
 .box__slide-cuotas-hotsale-bancos {
@@ -96,15 +96,14 @@ body .body2 {
 .box__headerpagina6 {
   display: flex;
   max-width: 100%;
-  background-color: white;
-  justify-content: space-evenly;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  padding: 5px;
-  position: sticky;
   top: -0.1rem;
   z-index: 9999;
   list-style-type: none;
+  padding: 10px;
 }
 .box__headerpagina6 .menu,
 .box__headerpagina6 a {
@@ -122,6 +121,9 @@ body .body2 {
 .box__headerpagina6 a a:hover {
   transition: 2s;
   color: rgba(172, 255, 47, 0.479);
+}
+.box__headerpagina6 .menu {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.377);
 }
 .box__headerpagina6 .img__header6 {
   width: 160px;
@@ -141,7 +143,7 @@ body .body2 {
   text-align: center;
   margin-top: 5px;
   padding: 5px;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   font-family: "Prompt", sans-serif;
   border-radius: 5px;
   -webkit-text-stroke: 0.3px black;
@@ -427,18 +429,18 @@ body .body2 {
 .box__gridnuevo {
   gap: 40px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(365px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   margin-bottom: 100px;
   padding: 25px;
 }
 .box__gridnuevo .gridcaja {
   display: flex;
-  margin-top: 20px;
+  margin-top: 70px;
   margin-bottom: 5px;
   flex-direction: column;
   padding: 20px;
-  border: 3px solid greenyellow;
-  box-shadow: 0 0 30px grey;
+  border: 2px solid greenyellow;
+  background-color: white;
 }
 .box__gridnuevo .gridcaja .img2__pag6 {
   flex-grow: 1;
@@ -480,6 +482,7 @@ body .body2 {
   line-height: 40px;
   font-size: 1.5rem;
   align-items: stretch;
+  width: 80%;
 }
 
 .box__footer {

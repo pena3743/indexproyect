@@ -173,16 +173,16 @@
 
     display: flex;
     max-width: 100%;
-    background-color: white;
-    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    padding: 5px;
-    position: sticky;
+    // position: sticky;
     top: -0.1rem;
     z-index: 9999;
     list-style-type: none;
-   
+    padding: 10px;
+
 
 
 
@@ -203,7 +203,7 @@
         font-size: 1.1rem;
         font-family: 'Prompt', sans-serif;
         margin-right: 15px;
-        
+
 
         a:hover {
             transition: 2s;
@@ -218,8 +218,9 @@
 
     .menu {
 
-        
-       
+        border-bottom: 1px solid rgba(0, 0, 0, 0.377);
+
+
     }
 
     .img__header6 {
@@ -263,7 +264,7 @@
         text-align: center;
         margin-top: 5px;
         padding: 5px;
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         font-family: 'Prompt', sans-serif;
         border-radius: 5px;
         -webkit-text-stroke: 0.3px black;
