@@ -102,7 +102,7 @@ body .body2 {
   flex-wrap: wrap;
   padding: 5px;
   position: sticky;
-  top: 0.1rem;
+  top: -0.1rem;
   z-index: 9999;
   list-style-type: none;
 }
@@ -436,37 +436,47 @@ body .body2 {
   margin-top: 20px;
   margin-bottom: 5px;
   flex-direction: column;
-  justify-content: center;
-  padding: 40px;
-  border: 3px solid rgba(19, 172, 57, 0.295);
+  padding: 20px;
+  border: 3px solid greenyellow;
   box-shadow: 0 0 30px grey;
 }
 .box__gridnuevo .gridcaja .img2__pag6 {
+  flex-grow: 1;
   max-width: 100%;
 }
 .box__gridnuevo .gridcaja .img3__pag6 {
   max-width: 100%;
+  flex-grow: 1;
 }
 .box__gridnuevo .gridcaja .img4__pag6 {
   max-width: 100%;
+  flex-grow: 1;
 }
 .box__gridnuevo .gridcaja .img5__pag6 {
   max-width: 100%;
+  flex-grow: 1;
 }
 .box__gridnuevo .gridcaja .img6__pag6 {
   max-width: 100%;
+  flex-grow: 1;
 }
 .box__gridnuevo .gridcaja .img7__pag6 {
   max-width: 100%;
+  flex-grow: 1;
 }
 .box__gridnuevo .gridcaja .img8__pag6 {
   max-width: 100%;
+  flex-grow: 1;
 }
 .box__gridnuevo .gridcaja img {
   max-width: 100%;
+  flex-grow: 1;
 }
 .box__gridnuevo .descrip__box {
+  display: flex;
+  flex-direction: column;
   padding: 10px;
+  gap: 15px;
   line-height: 40px;
   font-size: 1.5rem;
   align-items: stretch;
