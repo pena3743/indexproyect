@@ -95,6 +95,7 @@ body .body2 {
 
 .box__headerpagina6 {
   display: flex;
+  max-width: 100%;
   background-color: white;
   justify-content: space-evenly;
   align-items: center;
@@ -441,33 +442,34 @@ body .body2 {
   box-shadow: 0 0 30px grey;
 }
 .box__gridnuevo .gridcaja .img2__pag6 {
-  width: 356;
+  max-width: 100%;
 }
 .box__gridnuevo .gridcaja .img3__pag6 {
-  width: 358px;
+  max-width: 100%;
 }
 .box__gridnuevo .gridcaja .img4__pag6 {
-  width: 358px;
+  max-width: 100%;
 }
 .box__gridnuevo .gridcaja .img5__pag6 {
-  width: 358px;
+  max-width: 100%;
 }
 .box__gridnuevo .gridcaja .img6__pag6 {
-  width: 358px;
+  max-width: 100%;
 }
 .box__gridnuevo .gridcaja .img7__pag6 {
-  width: 350px;
+  max-width: 100%;
 }
 .box__gridnuevo .gridcaja .img8__pag6 {
-  width: 380px;
+  max-width: 100%;
 }
 .box__gridnuevo .gridcaja img {
-  width: 350px;
+  max-width: 100%;
 }
 .box__gridnuevo .descrip__box {
   padding: 10px;
   line-height: 40px;
   font-size: 1.5rem;
+  align-items: stretch;
 }
 
 .box__footer {
