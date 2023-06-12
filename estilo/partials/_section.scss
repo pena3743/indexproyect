@@ -556,9 +556,10 @@
 
     gap: 40px;
     display: grid;
+    
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     margin-bottom: 100px;
-
+    padding: 25px;
 
 
 
@@ -569,21 +570,23 @@
         margin-top: 20px;
         margin-bottom: 5px;
         align-items: center;
-        
         flex-direction: column;
         padding: 30px;
+        border: 3px solid greenyellow;
+        box-shadow: 0 0 20px black;
+      
         
-
 
         .img2__pag6 {
 
             width: 357px;
-
+            
         }
 
         .img3__pag6 {
 
-            width: 388px;
+            width: 358px;
+            
 
         }
 
@@ -591,21 +594,22 @@
 
         .img4__pag6 {
 
-            width: 388px;
+            width: 358px;
+            
 
         }
 
         .img5__pag6 {
 
-            width: 388px;
-
+            width: 358px;
+            
 
         }
 
         .img6__pag6 {
 
-            width: 388px;
-
+            width: 358px;
+            
 
         }
 
@@ -614,15 +618,15 @@
         .img7__pag6 {
 
             width: 350px;
-
+            
 
         }
 
 
         .img8__pag6 {
 
-            width: 400px;
-
+            width: 380px;
+            
 
         }
 
@@ -630,7 +634,7 @@
         img {
 
             width: 350px;
-
+            
 
         }
 

@@ -428,6 +428,7 @@ body .body2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   margin-bottom: 100px;
+  padding: 25px;
 }
 .box__gridnuevo .gridcaja {
   display: block;
@@ -436,27 +437,29 @@ body .body2 {
   align-items: center;
   flex-direction: column;
   padding: 30px;
+  border: 3px solid greenyellow;
+  box-shadow: 0 0 20px black;
 }
 .box__gridnuevo .gridcaja .img2__pag6 {
   width: 357px;
 }
 .box__gridnuevo .gridcaja .img3__pag6 {
-  width: 388px;
+  width: 358px;
 }
 .box__gridnuevo .gridcaja .img4__pag6 {
-  width: 388px;
+  width: 358px;
 }
 .box__gridnuevo .gridcaja .img5__pag6 {
-  width: 388px;
+  width: 358px;
 }
 .box__gridnuevo .gridcaja .img6__pag6 {
-  width: 388px;
+  width: 358px;
 }
 .box__gridnuevo .gridcaja .img7__pag6 {
   width: 350px;
 }
 .box__gridnuevo .gridcaja .img8__pag6 {
-  width: 400px;
+  width: 380px;
 }
 .box__gridnuevo .gridcaja img {
   width: 350px;
