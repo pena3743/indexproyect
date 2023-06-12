@@ -120,7 +120,7 @@ body .body2 {
 .box__headerpagina6 .menu a:hover,
 .box__headerpagina6 a a:hover {
   transition: 2s;
-  color: greenyellow;
+  color: rgba(172, 255, 47, 0.479);
 }
 .box__headerpagina6 .img__header6 {
   width: 160px;
@@ -426,19 +426,19 @@ body .body2 {
 .box__gridnuevo {
   gap: 40px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(365px, 1fr));
   margin-bottom: 100px;
   padding: 25px;
 }
 .box__gridnuevo .gridcaja {
-  display: block;
+  display: flex;
   margin-top: 20px;
   margin-bottom: 5px;
-  align-items: center;
   flex-direction: column;
-  padding: 30px;
+  justify-content: center;
+  padding: 40px;
   border: 3px solid greenyellow;
-  box-shadow: 0 0 20px black;
+  box-shadow: 0 0 30px grey;
 }
 .box__gridnuevo .gridcaja .img2__pag6 {
   width: 357px;

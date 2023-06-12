@@ -194,6 +194,7 @@
         -webkit-animation: tracking-in-expand .7s cubic-bezier(.215, .61, .355, 1.000) both;
         animation: tracking-in-expand .7s cubic-bezier(.215, .61, .355, 1.000) both;
         display: flex;
+
         color: black;
         gap: 1rem;
         list-style-type: none;
@@ -201,16 +202,24 @@
         font-size: 1.1rem;
         font-family: 'Prompt', sans-serif;
         margin-right: 15px;
+        
 
         a:hover {
             transition: 2s;
-            color: greenyellow;
+            color: rgba(172, 255, 47, 0.479);
 
 
         }
 
+
+
     }
 
+    .menu {
+
+        
+       
+    }
 
     .img__header6 {
 

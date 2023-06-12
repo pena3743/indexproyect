@@ -556,24 +556,26 @@
 
     gap: 40px;
     display: grid;
-    
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(365px, 1fr));
     margin-bottom: 100px;
     padding: 25px;
+    
 
 
 
 
 
     .gridcaja {
-        display: block;
+        display: flex;
         margin-top: 20px;
         margin-bottom: 5px;
-        align-items: center;
         flex-direction: column;
-        padding: 30px;
+        justify-content: center;
+        padding: 40px;
         border: 3px solid greenyellow;
-        box-shadow: 0 0 20px black;
+        box-shadow: 0 0 30px grey;
+        
+        
       
         
 
