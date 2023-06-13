@@ -2416,14 +2416,15 @@
             -webkit-animation: tracking-in-expand .7s cubic-bezier(.215, .61, .355, 1.000) both;
             animation: tracking-in-expand .7s cubic-bezier(.215, .61, .355, 1.000) both;
             display: flex;
-
+            
             color: black;
             gap: 1rem;
             list-style-type: none;
             text-decoration: none;
-            font-size: 1.1rem;
+            font-size: 0.9rem;
             font-family: 'Prompt', sans-serif;
             margin-right: 15px;
+
 
 
             a:hover {
@@ -2457,13 +2458,7 @@
 
 
 
-        .formpag6 {
-            width: 290px;
 
-            flex-basis: 2;
-
-
-        }
 
 
 
@@ -2508,21 +2503,142 @@
 
 
 
-        .menu {
-            display: flex;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .box__gridnuevo {
+
+            gap: 30px;
+            display: grid;
+
+            grid-template-columns: 3fr;
+
+            margin-bottom: 100px;
+            padding: 25px;
+
+
+
+
+
+
+            .gridcaja {
+                display: flex;
+                margin-top: 70px;
+                margin-bottom: 5px;
+                flex-direction: column;
+
+                padding: 20px;
+                border: 2px solid greenyellow;
+                // box-shadow: 0 0 30px grey;
+                background-color: white;
+
+
+
+
+
+
+                .img2__pag6 {
+
+                    flex-grow: 1;
+                    max-width: 100%;
+
+                }
+
+                .img3__pag6 {
+
+                    max-width: 100%;
+                    flex-grow: 1;
+
+                }
+
+
+
+                .img4__pag6 {
+
+                    max-width: 100%;
+                    flex-grow: 1;
+
+                }
+
+                .img5__pag6 {
+
+                    max-width: 100%;
+                    flex-grow: 1;
+
+                }
+
+                .img6__pag6 {
+
+                    max-width: 100%;
+                    flex-grow: 1;
+
+                }
+
+
+
+                .img7__pag6 {
+
+
+                    max-width: 100%;
+
+                    flex-grow: 1;
+
+
+                }
+
+
+                .img8__pag6 {
+
+                    max-width: 100%;
+                    flex-grow: 1;
+                }
+
+
+                img {
+
+                    max-width: 100%;
+                    flex-grow: 1;
+
+                }
+
+
+
+
+
+
+            }
+
+            .descrip__box {
+                display: flex;
+                flex-direction: column;
+                padding: 10px;
+                gap: 15px;
+
+                line-height: 40px;
+                font-size: 1.5rem;
+                align-items: stretch;
+                width: 80%;
+
+
+            }
 
 
         }
 
-        .responsivenav {
-
-            display: block;
 
 
 
-
-        }
 
     }
 

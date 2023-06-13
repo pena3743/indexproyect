@@ -556,10 +556,10 @@
 
     gap: 40px;
     display: grid;
-
     grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
     margin-bottom: 100px;
     padding: 25px;
+
 
 
 
@@ -571,11 +571,11 @@
         margin-top: 70px;
         margin-bottom: 5px;
         flex-direction: column;
-
         padding: 20px;
         border: 2px solid greenyellow;
         // box-shadow: 0 0 30px grey;
         background-color: white;
+
 
 
 
@@ -662,7 +662,7 @@
         line-height: 40px;
         font-size: 1.5rem;
         align-items: stretch;
-        width: 80%;
+
 
 
     }
