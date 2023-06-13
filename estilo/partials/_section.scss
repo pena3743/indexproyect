@@ -559,7 +559,7 @@
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     margin-bottom: 100px;
     padding: 25px;
-
+   
 
 
 
@@ -572,9 +572,9 @@
         margin-bottom: 5px;
         flex-direction: column;
         padding: 20px;
-        border: 2px solid greenyellow;
-        // box-shadow: 0 0 30px grey;
-        background-color: white;
+        
+        box-shadow: 0 0 20px black;
+        background-color: rgba(0, 0, 0, 0.808);
 
 
 
@@ -653,6 +653,8 @@
 
     }
 
+   
+
     .descrip__box {
         display: flex;
         flex-direction: column;
@@ -662,7 +664,7 @@
         line-height: 40px;
         font-size: 1.5rem;
         align-items: stretch;
-
+        color: white;
 
         .buton__descript {
 

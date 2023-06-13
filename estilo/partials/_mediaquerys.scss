@@ -2394,7 +2394,7 @@
 
         display: flex;
         max-width: 100%;
-        background-color: rgb(255, 255, 255);
+        background-color: rgba(255, 255, 255, 0);
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
@@ -2417,7 +2417,7 @@
             animation: tracking-in-expand .7s cubic-bezier(.215, .61, .355, 1.000) both;
             display: flex;
             
-            color: black;
+            color: white;
             gap: 1rem;
             list-style-type: none;
             text-decoration: none;
@@ -2441,14 +2441,14 @@
         .menu {
 
             border-bottom: 1px solid rgba(0, 0, 0, 0.349);
-
-
+            background-color: rgba(0, 0, 0, 0.644);
+            border-radius: 10px;
 
         }
 
         .img__header6 {
 
-            width: 160px;
+            width: 180px;
             margin-bottom: 10px;
 
         }
@@ -2474,17 +2474,17 @@
             animation: tracking-in-expand .7s cubic-bezier(.215, .61, .355, 1.000) both;
             display: block;
             width: 100%;
-            background: rgb(157, 186, 150);
-            background: linear-gradient(353deg, rgba(157, 186, 150, 0.3533788515406162) 13%, rgba(221, 242, 183, 0.12368697478991597) 100%, rgba(19, 37, 9, 0.3477766106442577) 100%, rgba(11, 29, 2, 0.7959558823529411) 100%, rgba(215, 226, 210, 1) 100%);
+            // background: rgb(157, 186, 150);
+            // background: linear-gradient(353deg, rgba(157, 186, 150, 0.3533788515406162) 13%, rgba(221, 242, 183, 0.12368697478991597) 100%, rgba(19, 37, 9, 0.3477766106442577) 100%, rgba(11, 29, 2, 0.7959558823529411) 100%, rgba(215, 226, 210, 1) 100%);
             height: 26px;
-            // color: black;
+            color: white;
             text-align: center;
             margin-top: 5px;
             padding: 5px;
-            font-size: 0.6rem;
+            font-size: 0.7rem;
             font-family: 'Prompt', sans-serif;
             border-radius: 5px;
-            -webkit-text-stroke: 0.3px black;
+            
             border: 1px solid rgba(0, 0, 0, 0.055);
             letter-spacing: 1px;
             position: sticky;

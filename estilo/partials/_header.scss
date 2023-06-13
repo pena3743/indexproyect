@@ -173,15 +173,15 @@
 
     display: flex;
     max-width: 100%;
-    background-color:white;
-    justify-content: space-around;
+    background-color:rgba(0, 0, 0, 0.623);
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    // position: sticky;
+     position: sticky;
     top: -0.1rem;
     z-index: 9999;
     list-style-type: none;
-    padding: 30px;
+    padding: 10px;
 
 
 
@@ -195,7 +195,7 @@
         -webkit-animation: tracking-in-expand .7s cubic-bezier(.215, .61, .355, 1.000) both;
         animation: tracking-in-expand .7s cubic-bezier(.215, .61, .355, 1.000) both;
         display: flex;
-        color: black;
+        color: white;
         gap: 1rem;
         list-style-type: none;
         text-decoration: none;
@@ -219,7 +219,7 @@
 
     .menu {
 
-        border-bottom: 1px solid rgba(0, 0, 0, 0.288);
+        border-bottom: 1px solid rgba(172, 255, 47, 0.267);
         
 
 
@@ -227,7 +227,7 @@
 
     .img__header6 {
 
-        width: 160px;
+        width: 250px;
         margin-bottom: 10px;
 
     }
@@ -253,10 +253,11 @@
         animation: tracking-in-expand .7s cubic-bezier(.215, .61, .355, 1.000) both;
         display: block;
         width: 100%;
-         background: rgb(157, 186, 150);
-         background: linear-gradient(353deg, rgba(157, 186, 150, 0.568) 13%, rgba(221, 242, 183, 0.12368697478991597) 100%, rgba(19, 37, 9, 0.3477766106442577) 100%, rgba(11, 29, 2, 0.7959558823529411) 100%, rgba(215, 226, 210, 1) 100%);
+        background-color: rgba(255, 255, 255, 0);
+        //  background: rgb(157, 186, 150);
+        //  background: linear-gradient(353deg, rgba(157, 186, 150, 0.568) 13%, rgba(221, 242, 183, 0.12368697478991597) 100%, rgba(19, 37, 9, 0.3477766106442577) 100%, rgba(11, 29, 2, 0.7959558823529411) 100%, rgba(215, 226, 210, 1) 100%);
         height: 26px;
-        color: black;
+        color: white;
         text-align: center;
         margin-top: 5px;
         padding: 5px;
@@ -264,7 +265,7 @@
         // font-family: 'Prompt', sans-serif;
         
         
-        border: 1px solid rgba(255, 255, 255, 0.068);
+        // border: 1px solid rgba(255, 255, 255, 0.068);
         flex-wrap: wrap;
         
 
