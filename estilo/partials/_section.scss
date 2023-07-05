@@ -55,9 +55,9 @@
 
 .box__section1 {
     max-width: 100%;
-
     background-color: white;
     margin: 50px;
+
 
 
     .box__img2 {
@@ -65,13 +65,13 @@
         justify-content: space-around;
         margin-top: 300px;
         padding: 20px;
-
+        
 
 
         .img33 {
             transition: 3s;
             width: 450px;
-
+            
 
 
 
@@ -88,13 +88,13 @@
         .mg2 {
             width: 450px;
             bottom: 30px;
-
+            
 
         }
 
         .mg3 {
             width: 450px;
-
+            
 
         }
 
@@ -257,38 +257,39 @@
 
 
 
-.box__politicas{
+.box__politicas {
     display: block;
     color: white;
     text-align: start;
     background-color: rgba(255, 255, 255, 0.041);
-    padding: 10px;
-    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.062);
+    margin: 30px;
+    padding: 30px;
+    border: 1px solid rgba(172, 255, 47, 0.425);
     border-radius: 10px;
-    border: 0.5px solid rgba(172, 255, 47, 0.281);
-   margin-bottom: 100px;
-   margin-top: 20px;
+    margin-bottom: 100px;
+    margin-top: 30px;
 
 
-    .pocitytitle{
+    .pocitytitle {
 
         text-align: center;
-        text-decoration: underline;
+
         font-size: 1.5rem;
         padding: 20px;
     }
 
-    .politicy-text{
-       
+    .politicy-text {
+
         margin: 20px;
-         font-family: 'Prompt', sans-serif;
+        font-family: 'Prompt', sans-serif;
         font-size: 1rem;
         padding: 20px;
     }
 
 
 
-    
+
 
 }
 
@@ -390,7 +391,7 @@
     .cofunder {
 
         color: white;
-        
+
         text-align: center;
         width: 250px;
         padding: 7px;
@@ -457,7 +458,7 @@
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     margin-bottom: 100px;
     padding: 25px;
-   
+
 
 
 
@@ -470,8 +471,8 @@
         margin-bottom: 5px;
         flex-direction: column;
         padding: 20px;
-        
-        
+
+
         background-color: rgba(0, 0, 0, 0.808);
 
 
@@ -551,7 +552,7 @@
 
     }
 
-   
+
 
     .descrip__box {
         display: flex;
@@ -587,7 +588,7 @@
 //entregas //
 
 
-.box__entregastext{
+.box__entregastext {
 
     display: flex;
     max-width: 100%;
@@ -605,7 +606,7 @@
     margin-bottom: 100px;
     margin-top: 30px;
 
-    .box__tituloentregas{
+    .box__tituloentregas {
         text-align: center;
         margin: 50px 50px;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
